@@ -1,0 +1,111 @@
+# PFCP field-level specs (id, boundary, dtype, name)
+# Boundary is bit range [lo,hi] (inclusive) from start of the PFCP message, or "dynamic".
+F1	[0,2]	uint	Version
+F2	[3,4]	uint	Header Spare Bits
+F3	[5,5]	bool	Header Follow-On Flag
+F4	[6,6]	bool	Message Priority Flag
+F5	[7,7]	bool	Header SEID Flag
+F6	[8,15]	uint	Message Type
+F7	[16,31]	uint	Message Length
+F8	dynamic	uint	Header SEID
+F9	dynamic	uint	Header Sequence Number
+F10	dynamic	uint	Header Spare Octet
+F11	dynamic	uint	Information Element Type
+F12	dynamic	uint	Information Element Length
+F13	dynamic	binary	Information Element Value
+F14	dynamic	uint	Cause Value
+F15	dynamic	uint	Recovery Time Stamp
+F16	dynamic	uint	Node ID Type
+F17	dynamic	uint	Node ID IPv4 Address
+F18	dynamic	uint	Node ID IPv6 Address
+F19	dynamic	binary	Node ID FQDN
+F20	dynamic	bool	F-SEID IPv6 Flag
+F21	dynamic	bool	F-SEID IPv4 Flag
+F22	dynamic	uint	F-SEID SEID
+F23	dynamic	uint	F-SEID IPv4 Address
+F24	dynamic	uint	F-SEID IPv6 Address
+F25	dynamic	uint	PDR Rule ID
+F26	dynamic	uint	Precedence Value
+F27	dynamic	uint	Source Interface Value
+F28	dynamic	bool	F-TEID IPv4 Flag
+F29	dynamic	bool	F-TEID IPv6 Flag
+F30	dynamic	bool	F-TEID CH Flag
+F31	dynamic	bool	F-TEID CHID Flag
+F32	dynamic	uint	F-TEID Spare Flags
+F33	dynamic	uint	F-TEID TEID
+F34	dynamic	uint	F-TEID IPv4 Address
+F35	dynamic	uint	F-TEID IPv6 Address
+F36	dynamic	uint	F-TEID CHOOSE ID
+F37	dynamic	bool	FAR ID Allocation Type
+F38	dynamic	uint	FAR ID
+F39	dynamic	bool	Apply Action DROP Flag
+F40	dynamic	bool	Apply Action FORW Flag
+F41	dynamic	bool	Apply Action BUFF Flag
+F42	dynamic	bool	Apply Action NOCP Flag
+F43	dynamic	bool	Apply Action DUPL Flag
+F44	dynamic	bool	Apply Action IPMA Flag
+F45	dynamic	bool	Apply Action IPMD Flag
+F46	dynamic	bool	Apply Action DFRT Flag
+F47	dynamic	bool	CP Function Features UIAUR Flag
+F48	dynamic	bool	CP Function Features ARDR Flag
+F49	dynamic	bool	CP Function Features MPAS Flag
+F50	dynamic	bool	CP Function Features BUNDL Flag
+F51	dynamic	bool	CP Function Features SSET Flag
+F52	dynamic	bool	CP Function Features EPFAR Flag
+F53	dynamic	bool	CP Function Features OVRL Flag
+F54	dynamic	bool	CP Function Features LOAD Flag
+F55	dynamic	binary	CP Function Features Additional Supported Features
+F56	dynamic	binary	Network Instance
+F57	dynamic	uint	Destination Interface Spare Bits
+F58	dynamic	uint	Destination Interface Value
+F59	dynamic	bool	Outer Header Creation GTP-U/UDP/IPv4 Flag
+F60	dynamic	bool	Outer Header Creation GTP-U/UDP/IPv6 Flag
+F61	dynamic	bool	Outer Header Creation UDP/IPv4 Flag
+F62	dynamic	bool	Outer Header Creation UDP/IPv6 Flag
+F63	dynamic	bool	Outer Header Creation IPv4 Flag
+F64	dynamic	bool	Outer Header Creation IPv6 Flag
+F65	dynamic	bool	Outer Header Creation C-TAG Flag
+F66	dynamic	bool	Outer Header Creation S-TAG Flag
+F67	dynamic	bool	Outer Header Creation N19 Indication Flag
+F68	dynamic	bool	Outer Header Creation N6 Indication Flag
+F69	dynamic	bool	Outer Header Creation Low Layer SSM and C-TEID Flag
+F70	dynamic	uint	Outer Header Creation Spare Bits
+F71	dynamic	uint	Outer Header Creation TEID
+F72	dynamic	uint	Outer Header Creation IPv4 Address
+F73	dynamic	uint	Outer Header Creation IPv6 Address
+F74	dynamic	uint	Outer Header Creation Port Number
+F75	dynamic	binary	Outer Header Creation C-TAG
+F76	dynamic	binary	Outer Header Creation S-TAG
+F77	dynamic	bool	UE IP Address V6 Flag
+F78	dynamic	bool	UE IP Address V4 Flag
+F79	dynamic	bool	UE IP Address Source Destination Flag
+F80	dynamic	bool	UE IP Address IPv6D Flag
+F81	dynamic	bool	UE IP Address CHV4 Flag
+F82	dynamic	bool	UE IP Address CHV6 Flag
+F83	dynamic	bool	UE IP Address IP6PL Flag
+F84	dynamic	uint	UE IP Address Spare Bit
+F85	dynamic	uint	UE IPv4 Address
+F86	dynamic	uint	UE IPv6 Address
+F87	dynamic	uint	UE IPv6 Prefix Delegation Bits
+F88	dynamic	uint	UE IPv6 Prefix Length
+F89	dynamic	uint	Outer Header Removal Description
+F90	dynamic	uint	GTP-U Extension Header Deletion
+F91	dynamic	uint	PDN Type Spare Bits
+F92	dynamic	uint	PDN Type Value
+F93	dynamic	bool	SDF Filter FD Flag
+F94	dynamic	bool	SDF Filter TTC Flag
+F95	dynamic	bool	SDF Filter SPI Flag
+F96	dynamic	bool	SDF Filter FL Flag
+F97	dynamic	bool	SDF Filter BID Flag
+F98	dynamic	bool	SDF Filter SMMII Flag
+F99	dynamic	uint	SDF Filter Spare Bits
+F100	dynamic	uint	SDF Filter Spare Octet
+F101	dynamic	uint	Length of Flow Description
+F102	dynamic	binary	Flow Description
+F103	dynamic	binary	ToS Traffic Class
+F104	dynamic	uint	Security Parameter Index
+F105	dynamic	uint	Flow Label
+F106	dynamic	uint	SDF Filter ID
+F107	dynamic	uint	Number of SMMII Instances
+F108	dynamic	uint	Length of SMMII
+F109	dynamic	binary	SMMII

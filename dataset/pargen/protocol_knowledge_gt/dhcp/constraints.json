@@ -1,0 +1,107 @@
+[
+  {
+    "id": "C1",
+    "description": "op ∈ {1,2}",
+    "expected": true
+  },
+  {
+    "id": "C2",
+    "description": "0 ≤ hlen ≤ 16",
+    "expected": true
+  },
+  {
+    "id": "C3",
+    "description": "Tx ⇒ hops = 0",
+    "expected": true
+  },
+  {
+    "id": "C4",
+    "description": "Tx ⇒ (flags & 0x7FFF = 0)",
+    "expected": true
+  },
+  {
+    "id": "C5",
+    "description": "msg_len ≥ 240",
+    "expected": true
+  },
+  {
+    "id": "C6",
+    "description": "cookie = 0x63825363",
+    "expected": true
+  },
+  {
+    "id": "C7",
+    "description": "code∈{0,255} ⇒ opt_len=1",
+    "expected": true
+  },
+  {
+    "id": "C8",
+    "description": "code∉{0,255} ⇒ opt_len=2+LenByte and LenByte≥1",
+    "expected": true
+  },
+  {
+    "id": "C9",
+    "description": "Σ opt_len_i ≤ (msg_len - 240)",
+    "expected": true
+  },
+  {
+    "id": "C10",
+    "description": "bytes after END must be PAD(0)",
+    "expected": true
+  },
+  {
+    "id": "C11",
+    "description": "Option 53 exists and Len=1",
+    "expected": true
+  },
+  {
+    "id": "C12",
+    "description": "Option 53 value in {1..8}",
+    "expected": true
+  },
+  {
+    "id": "C13",
+    "description": "Option 52 overload: Len=1 and value in {1,2,3}",
+    "expected": true
+  },
+  {
+    "id": "C14",
+    "description": "Overload(file) ⇒ ValidOptSeq(file[128])",
+    "expected": true
+  },
+  {
+    "id": "C15",
+    "description": "Overload(sname) ⇒ ValidOptSeq(sname[64])",
+    "expected": true
+  },
+  {
+    "id": "C16",
+    "description": "code=1 ⇒ Len=4 (Subnet Mask)",
+    "expected": true
+  },
+  {
+    "id": "C17",
+    "description": "code=54 ⇒ Len=4 (Server Identifier)",
+    "expected": true
+  },
+  {
+    "id": "C18",
+    "description": "code=57 ⇒ Len=2 and value≥576 (MaxMsgSize)",
+    "expected": true
+  },
+  {
+    "id": "C19",
+    "description": "code=58 ⇒ Len=4 (T1)",
+    "expected": true
+  },
+  {
+    "id": "C20",
+    "description": "code=59 ⇒ Len=4 (T2)",
+    "expected": true
+  },
+  {
+    "id": "C21",
+    "description": "code=51 ⇒ Len=4 (Lease Time)",
+    "expected": true
+  }
+]

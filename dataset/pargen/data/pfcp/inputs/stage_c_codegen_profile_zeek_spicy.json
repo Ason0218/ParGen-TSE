@@ -1,0 +1,19 @@
+{
+  "profile_name": "pfcp_zeek_spicy_registration",
+  "target_protocol": "pfcp",
+  "host": "zeek_spicy",
+  "zeek_spicy": {
+    "registration": {
+      "transport": "udp",
+      "port": 8805,
+      "module_name": "PFCP",
+      "entry_unit": "PFCP_Message",
+      "filter_name": "pfcp_bs",
+      "long_name": "PFCP (ParGen Zeek-Spicy)",
+      "short_name": "PFCP (ParGen Zeek-Spicy)"
+    }
+  },
+  "extraction": {
+    "pcap_layer": "transport_payload"
+  }
+}

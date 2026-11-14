@@ -1,0 +1,15 @@
+{
+  "profile_name": "tcp_scapy_registration",
+  "target_protocol": "tcp",
+  "host": "scapy",
+  "scapy": {
+    "registration": {
+      "ip_layer": "IP",
+      "ip_proto": 6
+    }
+  },
+  "extraction": {
+    "pcap_layer": "tcp_header",
+    "ip_proto": 6
+  }
+}

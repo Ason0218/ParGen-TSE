@@ -1,0 +1,45 @@
+# DHCP message (BOOTP/DHCP over UDP) field-level specs (id, boundary, dtype, name)
+# boundary is bit range [lo,hi] (inclusive) from start of the DHCP/BOOTP message, or "dynamic".
+F1	[0,7]	uint	Operation Code
+F2	[8,15]	uint	Hardware Type
+F3	[16,23]	uint	Hardware Address Length
+F4	[24,31]	uint	Hops
+F5	[32,63]	uint	Transaction Identifier
+F6	[64,79]	uint	Seconds Elapsed
+F7	[80,80]	bool	Broadcast Flag
+F8	[81,95]	uint	Reserved Flags
+F9	[96,127]	string	Client Internet Protocol Address
+F10	[128,159]	string	Your Internet Protocol Address
+F11	[160,191]	string	Server Internet Protocol Address
+F12	[192,223]	string	Gateway Internet Protocol Address
+F13	[224,351]	binary	Client Hardware Address
+F14	[352,863]	string	Server Host Name
+F15	[864,1887]	string	Boot File Name
+F16	[1888,1919]	uint	Magic Cookie
+F17	dynamic	binary	Options Area
+F18	dynamic	uint	Option Code
+F19	dynamic	uint	Option Length
+F20	dynamic	binary	Option Data
+F21	dynamic	bool	Pad Option (Option Code = 0)
+F22	dynamic	bool	End Option (Option Code = 255)
+F23	dynamic	uint	Option Overload Code (Option Code = 52)
+F24	dynamic	uint	Option Overload Length
+F25	dynamic	uint	Option Overload Value
+F26	dynamic	uint	DHCP Message Type Code (Option Code = 53)
+F27	dynamic	uint	DHCP Message Type Length
+F28	dynamic	uint	DHCP Message Type
+F29	dynamic	string	Subnet Mask Option (Option Code = 1)
+F30	dynamic	binary	Router Option (Option Code = 3)
+F31	dynamic	binary	Domain Name Server Option (Option Code = 6)
+F32	dynamic	string	Host Name Option (Option Code = 12)
+F33	dynamic	string	Domain Name Option (Option Code = 15)
+F34	dynamic	string	Requested Internet Protocol Address Option (Option Code = 50)
+F35	dynamic	uint	Internet Protocol Address Lease Time Option (Option Code = 51)
+F36	dynamic	string	Server Identifier Option (Option Code = 54)
+F37	dynamic	binary	Parameter Request List Option (Option Code = 55)
+F38	dynamic	uint	Maximum DHCP Message Size Option (Option Code = 57)
+F39	dynamic	uint	Renewal Time Value Option (Option Code = 58)
+F40	dynamic	uint	Rebinding Time Value Option (Option Code = 59)
+F41	dynamic	string	Vendor Class Identifier Option (Option Code = 60)
+F42	dynamic	binary	Client Identifier Option (Option Code = 61)
+F43	dynamic	binary	Padding

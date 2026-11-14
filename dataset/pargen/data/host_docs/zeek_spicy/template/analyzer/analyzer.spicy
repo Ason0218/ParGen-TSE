@@ -1,0 +1,8 @@
+module ParGen;
+
+# Minimal Spicy unit (placeholder).
+# Stage C should replace this with the target protocol grammar and leaf fields.
+public type Message = unit {
+    b: uint8;
+};
+

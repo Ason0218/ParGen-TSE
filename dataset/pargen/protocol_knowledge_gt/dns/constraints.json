@@ -1,0 +1,72 @@
+[
+  {
+    "id": "DNS_C1_header_counts",
+    "description": "DNS fixed header and section count fields",
+    "expected": true
+  },
+  {
+    "id": "DNS_C2_qr_selector",
+    "description": "QR distinguishes query and response messages",
+    "expected": true
+  },
+  {
+    "id": "DNS_C3_z_reserved_zero",
+    "description": "DNS Z reserved bits are zero",
+    "expected": true
+  },
+  {
+    "id": "DNS_C4_qdcount_questions",
+    "description": "QDCOUNT controls question repeats",
+    "expected": true
+  },
+  {
+    "id": "DNS_C5_section_counts_rrs",
+    "description": "ANCOUNT/NSCOUNT/ARCOUNT control RR repeats",
+    "expected": true
+  },
+  {
+    "id": "DNS_C6_name_labels",
+    "description": "Domain names are length-prefixed labels ending in zero",
+    "expected": true
+  },
+  {
+    "id": "DNS_C7_label_length_bound",
+    "description": "DNS label length is at most 63 octets",
+    "expected": true
+  },
+  {
+    "id": "DNS_C8_compression_pointer",
+    "description": "Compression pointer marker and offset are modeled",
+    "expected": true
+  },
+  {
+    "id": "DNS_C9_question_triple",
+    "description": "Question has QNAME, QTYPE, and QCLASS",
+    "expected": true
+  },
+  {
+    "id": "DNS_C10_rr_envelope",
+    "description": "RR has NAME, TYPE, CLASS, TTL, RDLENGTH, and RDATA",
+    "expected": true
+  },
+  {
+    "id": "DNS_C11_rdlength_rdata",
+    "description": "RDATA size follows RDLENGTH",
+    "expected": true
+  },
+  {
+    "id": "DNS_C12_rr_type_variants",
+    "description": "RR TYPE variants include A/NS/CNAME/MX/TXT/AAAA",
+    "expected": true
+  },
+  {
+    "id": "DNS_C13_a_aaaa_sizes",
+    "description": "A and AAAA records have 4/16-octet RDATA",
+    "expected": true
+  },
+  {
+    "id": "DNS_C14_mx_structure",
+    "description": "MX record has preference and exchange name",
+    "expected": true
+  }
+]

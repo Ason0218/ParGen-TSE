@@ -1,0 +1,62 @@
+[
+  {
+    "id": "C1",
+    "description": "Version = 4",
+    "expected": true
+  },
+  {
+    "id": "C2",
+    "description": "5 ≤ IHL ≤ 15",
+    "expected": true
+  },
+  {
+    "id": "C3",
+    "description": "TotalLen ≥ 4 * IHL",
+    "expected": true
+  },
+  {
+    "id": "C4",
+    "description": "ReservedFlag = 0",
+    "expected": true
+  },
+  {
+    "id": "C5",
+    "description": "DF = 1 ⇒ (MF = 0 ∧ FragOffset = 0)",
+    "expected": true
+  },
+  {
+    "id": "C6",
+    "description": "MF = 1 ⇒ ((TotalLen - 4 * IHL) mod 8 = 0)",
+    "expected": true
+  },
+  {
+    "id": "C7",
+    "description": "kind_i ∈ {0,1} ⇒ len_i = 1",
+    "expected": true
+  },
+  {
+    "id": "C8",
+    "description": "kind_i ∉ {0,1} ⇒ len_i = Opt[pos_i+1] ∧ len_i ≥ 2",
+    "expected": true
+  },
+  {
+    "id": "C9",
+    "description": "Σ_i len_i ≤ 4 * (IHL - 5)",
+    "expected": true
+  },
+  {
+    "id": "C10",
+    "description": "EOL ⇒ remaining option bytes are zero padding",
+    "expected": true
+  },
+  {
+    "id": "C11",
+    "description": "VerifyIPv4HeaderChecksum(hdr) = true",
+    "expected": true
+  },
+  {
+    "id": "C12",
+    "description": "TTL ≠ 0",
+    "expected": true
+  }
+]

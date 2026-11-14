@@ -1,0 +1,15 @@
+{
+  "profile_name": "bfd_wireshark_c_registration",
+  "target_protocol": "bfd",
+  "host": "wireshark_c",
+  "wireshark_c": {
+    "registration": {
+      "dissector_table": "udp.port",
+      "port": 3784,
+      "proto_abbrev": "bfd_bs",
+      "filter_name": "bfd_bs",
+      "long_name": "BFD Control (ParGen)",
+      "short_name": "BFD Control (ParGen)"
+    }
+  }
+}

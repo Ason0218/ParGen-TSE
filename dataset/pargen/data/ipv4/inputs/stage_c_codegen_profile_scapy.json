@@ -1,0 +1,15 @@
+{
+  "profile_name": "ipv4_scapy_registration",
+  "target_protocol": "ipv4",
+  "host": "scapy",
+  "scapy": {
+    "registration": {
+      "transport": "ethernet",
+      "selector_type": "ethertype",
+      "selector": 2048,
+      "filter_name": "ipv4_bs",
+      "long_name": "IPv4 (ParGen Scapy)",
+      "short_name": "IPv4 (ParGen Scapy)"
+    }
+  }
+}

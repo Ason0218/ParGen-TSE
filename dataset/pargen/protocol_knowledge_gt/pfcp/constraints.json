@@ -1,0 +1,122 @@
+[
+  {
+    "id": "C1",
+    "description": "PFCP version is 1",
+    "expected": true
+  },
+  {
+    "id": "C2",
+    "description": "Target message types cover Association Setup plus Session Establishment/Modification request-response pairs",
+    "expected": true
+  },
+  {
+    "id": "C3",
+    "description": "PFCP Message Length describes the remaining message payload",
+    "expected": true
+  },
+  {
+    "id": "C4",
+    "description": "S flag controls whether the SEID field is present",
+    "expected": true
+  },
+  {
+    "id": "C5",
+    "description": "PFCP Information Elements use Type-Length-Value structure",
+    "expected": true
+  },
+  {
+    "id": "C6",
+    "description": "IE Value length is determined by IE Length",
+    "expected": true
+  },
+  {
+    "id": "C7",
+    "description": "Node ID has an ID-type selector and IPv4 alternative",
+    "expected": true
+  },
+  {
+    "id": "C8",
+    "description": "F-SEID V4 flag gates the IPv4 address alternative",
+    "expected": true
+  },
+  {
+    "id": "C9",
+    "description": "Create PDR groups PDR ID, Precedence, and PDI",
+    "expected": true
+  },
+  {
+    "id": "C10",
+    "description": "PDI groups Source Interface and F-TEID",
+    "expected": true
+  },
+  {
+    "id": "C11",
+    "description": "F-TEID contains TEID plus flag-dependent IPv4 alternative",
+    "expected": true
+  },
+  {
+    "id": "C12",
+    "description": "Create FAR groups FAR ID and Apply Action",
+    "expected": true
+  },
+  {
+    "id": "C13",
+    "description": "Apply Action exposes forwarding action bits",
+    "expected": true
+  },
+  {
+    "id": "C14",
+    "description": "Header spare bits and spare octet are zero",
+    "expected": true
+  },
+  {
+    "id": "C15",
+    "description": "F-SEID exposes V4/V6 guarded IP alternatives",
+    "expected": true
+  },
+  {
+    "id": "C16",
+    "description": "F-TEID CH/CHID/spare semantics are represented",
+    "expected": true
+  },
+  {
+    "id": "C17",
+    "description": "Apply Action covers the full first-octet action flag set",
+    "expected": true
+  },
+  {
+    "id": "C18",
+    "description": "CP Function Features exposes supported/additional bitmasks",
+    "expected": true
+  },
+  {
+    "id": "C19",
+    "description": "Network Instance IE value is modeled",
+    "expected": true
+  },
+  {
+    "id": "C20",
+    "description": "Destination Interface has spare bits plus interface value",
+    "expected": true
+  },
+  {
+    "id": "C21",
+    "description": "UE IP Address exposes flag-gated IPv4/IPv6 alternatives",
+    "expected": true
+  },
+  {
+    "id": "C22",
+    "description": "Outer Header Creation has description plus TEID/address fields",
+    "expected": true
+  },
+  {
+    "id": "C23",
+    "description": "Outer Header Removal has description plus extension-header deletion field",
+    "expected": true
+  },
+  {
+    "id": "C24",
+    "description": "PDN Type has spare bits plus type value",
+    "expected": true
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "profile_name": "dhcp_wireshark_c_registration",
+  "target_protocol": "dhcp",
+  "host": "wireshark_c",
+  "wireshark_c": {
+    "registration": {
+      "dissector_table": "udp.port",
+      "port": 67,
+      "proto_abbrev": "dhcp_bs",
+      "filter_name": "dhcp_bs",
+      "long_name": "DHCP/BOOTP (ParGen)",
+      "short_name": "DHCP (ParGen)"
+    }
+  }
+}

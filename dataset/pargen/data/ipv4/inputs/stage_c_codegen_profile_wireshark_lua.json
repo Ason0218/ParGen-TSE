@@ -1,0 +1,15 @@
+{
+  "profile_name": "ipv4_wireshark_lua_registration",
+  "target_protocol": "ipv4",
+  "host": "wireshark_lua",
+  "wireshark_lua": {
+    "registration": {
+      "dissector_table": "ethertype",
+      "selector_type": "ethertype",
+      "selector": 2048,
+      "filter_name": "ipv4_bs",
+      "long_name": "IPv4 (ParGen Lua)",
+      "short_name": "IPv4 (ParGen Lua)"
+    }
+  }
+}

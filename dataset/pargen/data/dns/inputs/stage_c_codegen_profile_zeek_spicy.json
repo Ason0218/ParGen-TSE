@@ -1,0 +1,8 @@
+{
+  "profile_name": "dns_zeek_spicy_registration",
+  "target_protocol": "dns",
+  "host": "zeek_spicy",
+  "extraction": {
+    "pcap_layer": "transport_payload"
+  }
+}

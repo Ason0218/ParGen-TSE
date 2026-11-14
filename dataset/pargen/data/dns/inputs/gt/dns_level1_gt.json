@@ -1,0 +1,6730 @@
+{
+  "pcap": "dns.pcap",
+  "gt_level": 1,
+  "description": "DNS GT from Wireshark public SampleCaptures dns.cap; offsets relative to DNS message start.",
+  "generated_at": "2026-05-20T20:41:33.900436+00:00",
+  "provenance": {
+    "traffic_origin": "wireshark_public_sample_capture",
+    "sample_page": "https://wiki.wireshark.org/SampleCaptures",
+    "sample_url": "https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/dns.cap",
+    "original_frame_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "note": "Public Wireshark SampleCaptures dns.cap; GT offsets are relative to the DNS message start."
+  },
+  "packets": [
+    {
+      "frame_no": 1,
+      "hex": "10320100000100000000000006676f6f676c6503636f6d0000100001",
+      "src_ip": "192.168.170.8",
+      "dst_ip": "192.168.170.20",
+      "src_port": 32795,
+      "dst_port": 53,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "1032",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 12,
+          "raw": "06676f6f676c6503636f6d00",
+          "bit_start": 96,
+          "size_bits": 96
+        },
+        {
+          "name": "Question Type",
+          "offset": 24,
+          "length": 2,
+          "raw": "0010",
+          "bit_start": 192,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 26,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 208,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 2,
+      "hex": "10328180000100010000000006676f6f676c6503636f6d0000100001c00c001000010000010e00100f763d7370663120707472203f616c6c",
+      "src_ip": "192.168.170.20",
+      "dst_ip": "192.168.170.8",
+      "src_port": 53,
+      "dst_port": 32795,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "1032",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 12,
+          "raw": "06676f6f676c6503636f6d00",
+          "bit_start": 96,
+          "size_bits": 96
+        },
+        {
+          "name": "Question Type",
+          "offset": 24,
+          "length": 2,
+          "raw": "0010",
+          "bit_start": 192,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 26,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 208,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 28,
+          "length": 2,
+          "raw": "c00c",
+          "bit_start": 224,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 30,
+          "length": 2,
+          "raw": "0010",
+          "bit_start": 240,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 32,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 256,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 34,
+          "length": 4,
+          "raw": "0000010e",
+          "bit_start": 272,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 38,
+          "length": 2,
+          "raw": "0010",
+          "bit_start": 304,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 40,
+          "length": 16,
+          "raw": "0f763d7370663120707472203f616c6c",
+          "bit_start": 320,
+          "size_bits": 128
+        },
+        {
+          "name": "TXT Character String",
+          "offset": 40,
+          "length": 16,
+          "raw": "0f763d7370663120707472203f616c6c",
+          "bit_start": 320,
+          "size_bits": 128
+        }
+      ]
+    },
+    {
+      "frame_no": 3,
+      "hex": "f76f0100000100000000000006676f6f676c6503636f6d00000f0001",
+      "src_ip": "192.168.170.8",
+      "dst_ip": "192.168.170.20",
+      "src_port": 32795,
+      "dst_port": 53,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "f76f",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 12,
+          "raw": "06676f6f676c6503636f6d00",
+          "bit_start": 96,
+          "size_bits": 96
+        },
+        {
+          "name": "Question Type",
+          "offset": 24,
+          "length": 2,
+          "raw": "000f",
+          "bit_start": 192,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 26,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 208,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 4,
+      "hex": "f76f8180000100060000000606676f6f676c6503636f6d00000f0001c00c000f000100000228000a002805736d747034c00cc00c000f000100000228000a000a05736d747035c00cc00c000f000100000228000a000a05736d747036c00cc00c000f000100000228000a000a05736d747031c00cc00c000f000100000228000a000a05736d747032c00cc00c000f000100000228000a002805736d747033c00cc02a00010001000002580004d8ef251ac0400001000100000258000440e9a719c0560001000100000258000442660919c06c00010001000002580004d8ef3919c08200010001000002580004d8ef2519c09800010001000002580004d8ef391a",
+      "src_ip": "192.168.170.20",
+      "dst_ip": "192.168.170.8",
+      "src_port": 53,
+      "dst_port": 32795,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "f76f",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0006",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0006",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 12,
+          "raw": "06676f6f676c6503636f6d00",
+          "bit_start": 96,
+          "size_bits": 96
+        },
+        {
+          "name": "Question Type",
+          "offset": 24,
+          "length": 2,
+          "raw": "000f",
+          "bit_start": 192,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 26,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 208,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 28,
+          "length": 2,
+          "raw": "c00c",
+          "bit_start": 224,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 30,
+          "length": 2,
+          "raw": "000f",
+          "bit_start": 240,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 32,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 256,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 34,
+          "length": 4,
+          "raw": "00000228",
+          "bit_start": 272,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 38,
+          "length": 2,
+          "raw": "000a",
+          "bit_start": 304,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 40,
+          "length": 10,
+          "raw": "002805736d747034c00c",
+          "bit_start": 320,
+          "size_bits": 80
+        },
+        {
+          "name": "MX Preference",
+          "offset": 40,
+          "length": 2,
+          "raw": "0028",
+          "bit_start": 320,
+          "size_bits": 16
+        },
+        {
+          "name": "MX Exchange Name",
+          "offset": 42,
+          "length": 8,
+          "raw": "05736d747034c00c",
+          "bit_start": 336,
+          "size_bits": 64
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 50,
+          "length": 2,
+          "raw": "c00c",
+          "bit_start": 400,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 52,
+          "length": 2,
+          "raw": "000f",
+          "bit_start": 416,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 54,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 432,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 56,
+          "length": 4,
+          "raw": "00000228",
+          "bit_start": 448,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 60,
+          "length": 2,
+          "raw": "000a",
+          "bit_start": 480,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 62,
+          "length": 10,
+          "raw": "000a05736d747035c00c",
+          "bit_start": 496,
+          "size_bits": 80
+        },
+        {
+          "name": "MX Preference",
+          "offset": 62,
+          "length": 2,
+          "raw": "000a",
+          "bit_start": 496,
+          "size_bits": 16
+        },
+        {
+          "name": "MX Exchange Name",
+          "offset": 64,
+          "length": 8,
+          "raw": "05736d747035c00c",
+          "bit_start": 512,
+          "size_bits": 64
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 72,
+          "length": 2,
+          "raw": "c00c",
+          "bit_start": 576,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 74,
+          "length": 2,
+          "raw": "000f",
+          "bit_start": 592,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 76,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 608,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 78,
+          "length": 4,
+          "raw": "00000228",
+          "bit_start": 624,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 82,
+          "length": 2,
+          "raw": "000a",
+          "bit_start": 656,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 84,
+          "length": 10,
+          "raw": "000a05736d747036c00c",
+          "bit_start": 672,
+          "size_bits": 80
+        },
+        {
+          "name": "MX Preference",
+          "offset": 84,
+          "length": 2,
+          "raw": "000a",
+          "bit_start": 672,
+          "size_bits": 16
+        },
+        {
+          "name": "MX Exchange Name",
+          "offset": 86,
+          "length": 8,
+          "raw": "05736d747036c00c",
+          "bit_start": 688,
+          "size_bits": 64
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 94,
+          "length": 2,
+          "raw": "c00c",
+          "bit_start": 752,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 96,
+          "length": 2,
+          "raw": "000f",
+          "bit_start": 768,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 98,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 784,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 100,
+          "length": 4,
+          "raw": "00000228",
+          "bit_start": 800,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 104,
+          "length": 2,
+          "raw": "000a",
+          "bit_start": 832,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 106,
+          "length": 10,
+          "raw": "000a05736d747031c00c",
+          "bit_start": 848,
+          "size_bits": 80
+        },
+        {
+          "name": "MX Preference",
+          "offset": 106,
+          "length": 2,
+          "raw": "000a",
+          "bit_start": 848,
+          "size_bits": 16
+        },
+        {
+          "name": "MX Exchange Name",
+          "offset": 108,
+          "length": 8,
+          "raw": "05736d747031c00c",
+          "bit_start": 864,
+          "size_bits": 64
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 116,
+          "length": 2,
+          "raw": "c00c",
+          "bit_start": 928,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 118,
+          "length": 2,
+          "raw": "000f",
+          "bit_start": 944,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 120,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 960,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 122,
+          "length": 4,
+          "raw": "00000228",
+          "bit_start": 976,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 126,
+          "length": 2,
+          "raw": "000a",
+          "bit_start": 1008,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 128,
+          "length": 10,
+          "raw": "000a05736d747032c00c",
+          "bit_start": 1024,
+          "size_bits": 80
+        },
+        {
+          "name": "MX Preference",
+          "offset": 128,
+          "length": 2,
+          "raw": "000a",
+          "bit_start": 1024,
+          "size_bits": 16
+        },
+        {
+          "name": "MX Exchange Name",
+          "offset": 130,
+          "length": 8,
+          "raw": "05736d747032c00c",
+          "bit_start": 1040,
+          "size_bits": 64
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 138,
+          "length": 2,
+          "raw": "c00c",
+          "bit_start": 1104,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 140,
+          "length": 2,
+          "raw": "000f",
+          "bit_start": 1120,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 142,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 1136,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 144,
+          "length": 4,
+          "raw": "00000228",
+          "bit_start": 1152,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 148,
+          "length": 2,
+          "raw": "000a",
+          "bit_start": 1184,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 150,
+          "length": 10,
+          "raw": "002805736d747033c00c",
+          "bit_start": 1200,
+          "size_bits": 80
+        },
+        {
+          "name": "MX Preference",
+          "offset": 150,
+          "length": 2,
+          "raw": "0028",
+          "bit_start": 1200,
+          "size_bits": 16
+        },
+        {
+          "name": "MX Exchange Name",
+          "offset": 152,
+          "length": 8,
+          "raw": "05736d747033c00c",
+          "bit_start": 1216,
+          "size_bits": 64
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 160,
+          "length": 2,
+          "raw": "c02a",
+          "bit_start": 1280,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 162,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 1296,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 164,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 1312,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 166,
+          "length": 4,
+          "raw": "00000258",
+          "bit_start": 1328,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 170,
+          "length": 2,
+          "raw": "0004",
+          "bit_start": 1360,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 172,
+          "length": 4,
+          "raw": "d8ef251a",
+          "bit_start": 1376,
+          "size_bits": 32
+        },
+        {
+          "name": "A Record IPv4 Address",
+          "offset": 172,
+          "length": 4,
+          "raw": "d8ef251a",
+          "bit_start": 1376,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 176,
+          "length": 2,
+          "raw": "c040",
+          "bit_start": 1408,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 178,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 1424,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 180,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 1440,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 182,
+          "length": 4,
+          "raw": "00000258",
+          "bit_start": 1456,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 186,
+          "length": 2,
+          "raw": "0004",
+          "bit_start": 1488,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 188,
+          "length": 4,
+          "raw": "40e9a719",
+          "bit_start": 1504,
+          "size_bits": 32
+        },
+        {
+          "name": "A Record IPv4 Address",
+          "offset": 188,
+          "length": 4,
+          "raw": "40e9a719",
+          "bit_start": 1504,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 192,
+          "length": 2,
+          "raw": "c056",
+          "bit_start": 1536,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 194,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 1552,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 196,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 1568,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 198,
+          "length": 4,
+          "raw": "00000258",
+          "bit_start": 1584,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 202,
+          "length": 2,
+          "raw": "0004",
+          "bit_start": 1616,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 204,
+          "length": 4,
+          "raw": "42660919",
+          "bit_start": 1632,
+          "size_bits": 32
+        },
+        {
+          "name": "A Record IPv4 Address",
+          "offset": 204,
+          "length": 4,
+          "raw": "42660919",
+          "bit_start": 1632,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 208,
+          "length": 2,
+          "raw": "c06c",
+          "bit_start": 1664,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 210,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 1680,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 212,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 1696,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 214,
+          "length": 4,
+          "raw": "00000258",
+          "bit_start": 1712,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 218,
+          "length": 2,
+          "raw": "0004",
+          "bit_start": 1744,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 220,
+          "length": 4,
+          "raw": "d8ef3919",
+          "bit_start": 1760,
+          "size_bits": 32
+        },
+        {
+          "name": "A Record IPv4 Address",
+          "offset": 220,
+          "length": 4,
+          "raw": "d8ef3919",
+          "bit_start": 1760,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 224,
+          "length": 2,
+          "raw": "c082",
+          "bit_start": 1792,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 226,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 1808,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 228,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 1824,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 230,
+          "length": 4,
+          "raw": "00000258",
+          "bit_start": 1840,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 234,
+          "length": 2,
+          "raw": "0004",
+          "bit_start": 1872,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 236,
+          "length": 4,
+          "raw": "d8ef2519",
+          "bit_start": 1888,
+          "size_bits": 32
+        },
+        {
+          "name": "A Record IPv4 Address",
+          "offset": 236,
+          "length": 4,
+          "raw": "d8ef2519",
+          "bit_start": 1888,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 240,
+          "length": 2,
+          "raw": "c098",
+          "bit_start": 1920,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 242,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 1936,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 244,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 1952,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 246,
+          "length": 4,
+          "raw": "00000258",
+          "bit_start": 1968,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 250,
+          "length": 2,
+          "raw": "0004",
+          "bit_start": 2000,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 252,
+          "length": 4,
+          "raw": "d8ef391a",
+          "bit_start": 2016,
+          "size_bits": 32
+        },
+        {
+          "name": "A Record IPv4 Address",
+          "offset": 252,
+          "length": 4,
+          "raw": "d8ef391a",
+          "bit_start": 2016,
+          "size_bits": 32
+        }
+      ]
+    },
+    {
+      "frame_no": 5,
+      "hex": "49a10100000100000000000006676f6f676c6503636f6d00001d0001",
+      "src_ip": "192.168.170.8",
+      "dst_ip": "192.168.170.20",
+      "src_port": 32795,
+      "dst_port": 53,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "49a1",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 12,
+          "raw": "06676f6f676c6503636f6d00",
+          "bit_start": 96,
+          "size_bits": 96
+        },
+        {
+          "name": "Question Type",
+          "offset": 24,
+          "length": 2,
+          "raw": "001d",
+          "bit_start": 192,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 26,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 208,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 6,
+      "hex": "49a18180000100000000000006676f6f676c6503636f6d00001d0001",
+      "src_ip": "192.168.170.20",
+      "dst_ip": "192.168.170.8",
+      "src_port": 53,
+      "dst_port": 32795,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "49a1",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 12,
+          "raw": "06676f6f676c6503636f6d00",
+          "bit_start": 96,
+          "size_bits": 96
+        },
+        {
+          "name": "Question Type",
+          "offset": 24,
+          "length": 2,
+          "raw": "001d",
+          "bit_start": 192,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 26,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 208,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 7,
+      "hex": "9bbb010000010000000000000331303401390331393202363607696e2d61646472046172706100000c0001",
+      "src_ip": "192.168.170.8",
+      "dst_ip": "192.168.170.20",
+      "src_port": 32795,
+      "dst_port": 53,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "9bbb",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 27,
+          "raw": "0331303401390331393202363607696e2d61646472046172706100",
+          "bit_start": 96,
+          "size_bits": 216
+        },
+        {
+          "name": "Question Type",
+          "offset": 39,
+          "length": 2,
+          "raw": "000c",
+          "bit_start": 312,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 41,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 328,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 8,
+      "hex": "9bbb818000010001000000000331303401390331393202363607696e2d61646472046172706100000c0001c00c000c00010001512500200c36362d3139322d392d3130340367656e09747774656c65636f6d036e657400",
+      "src_ip": "192.168.170.20",
+      "dst_ip": "192.168.170.8",
+      "src_port": 53,
+      "dst_port": 32795,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "9bbb",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 27,
+          "raw": "0331303401390331393202363607696e2d61646472046172706100",
+          "bit_start": 96,
+          "size_bits": 216
+        },
+        {
+          "name": "Question Type",
+          "offset": 39,
+          "length": 2,
+          "raw": "000c",
+          "bit_start": 312,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 41,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 328,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 43,
+          "length": 2,
+          "raw": "c00c",
+          "bit_start": 344,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 45,
+          "length": 2,
+          "raw": "000c",
+          "bit_start": 360,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 47,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 376,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 49,
+          "length": 4,
+          "raw": "00015125",
+          "bit_start": 392,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 53,
+          "length": 2,
+          "raw": "0020",
+          "bit_start": 424,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 55,
+          "length": 32,
+          "raw": "0c36362d3139322d392d3130340367656e09747774656c65636f6d036e657400",
+          "bit_start": 440,
+          "size_bits": 256
+        }
+      ]
+    },
+    {
+      "frame_no": 9,
+      "hex": "75c00100000100000000000003777777066e6574627364036f72670000010001",
+      "src_ip": "192.168.170.8",
+      "dst_ip": "192.168.170.20",
+      "src_port": 32795,
+      "dst_port": 53,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "75c0",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 16,
+          "raw": "03777777066e6574627364036f726700",
+          "bit_start": 96,
+          "size_bits": 128
+        },
+        {
+          "name": "Question Type",
+          "offset": 28,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 224,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 30,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 240,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 10,
+      "hex": "75c08180000100010000000003777777066e6574627364036f72670000010001c00c00010001000140ef0004cc98be0c",
+      "src_ip": "192.168.170.20",
+      "dst_ip": "192.168.170.8",
+      "src_port": 53,
+      "dst_port": 32795,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "75c0",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 16,
+          "raw": "03777777066e6574627364036f726700",
+          "bit_start": 96,
+          "size_bits": 128
+        },
+        {
+          "name": "Question Type",
+          "offset": 28,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 224,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 30,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 240,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 32,
+          "length": 2,
+          "raw": "c00c",
+          "bit_start": 256,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 34,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 272,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 36,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 288,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 38,
+          "length": 4,
+          "raw": "000140ef",
+          "bit_start": 304,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 42,
+          "length": 2,
+          "raw": "0004",
+          "bit_start": 336,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 44,
+          "length": 4,
+          "raw": "cc98be0c",
+          "bit_start": 352,
+          "size_bits": 32
+        },
+        {
+          "name": "A Record IPv4 Address",
+          "offset": 44,
+          "length": 4,
+          "raw": "cc98be0c",
+          "bit_start": 352,
+          "size_bits": 32
+        }
+      ]
+    },
+    {
+      "frame_no": 11,
+      "hex": "f0d40100000100000000000003777777066e6574627364036f726700001c0001",
+      "src_ip": "192.168.170.8",
+      "dst_ip": "192.168.170.20",
+      "src_port": 32795,
+      "dst_port": 53,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "f0d4",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 16,
+          "raw": "03777777066e6574627364036f726700",
+          "bit_start": 96,
+          "size_bits": 128
+        },
+        {
+          "name": "Question Type",
+          "offset": 28,
+          "length": 2,
+          "raw": "001c",
+          "bit_start": 224,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 30,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 240,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 12,
+      "hex": "f0d48180000100010000000003777777066e6574627364036f726700001c0001c00c001c0001000151800010200104f80004000702e081fffe529a6b",
+      "src_ip": "192.168.170.20",
+      "dst_ip": "192.168.170.8",
+      "src_port": 53,
+      "dst_port": 32795,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "f0d4",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 16,
+          "raw": "03777777066e6574627364036f726700",
+          "bit_start": 96,
+          "size_bits": 128
+        },
+        {
+          "name": "Question Type",
+          "offset": 28,
+          "length": 2,
+          "raw": "001c",
+          "bit_start": 224,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 30,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 240,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 32,
+          "length": 2,
+          "raw": "c00c",
+          "bit_start": 256,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 34,
+          "length": 2,
+          "raw": "001c",
+          "bit_start": 272,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 36,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 288,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 38,
+          "length": 4,
+          "raw": "00015180",
+          "bit_start": 304,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 42,
+          "length": 2,
+          "raw": "0010",
+          "bit_start": 336,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 44,
+          "length": 16,
+          "raw": "200104f80004000702e081fffe529a6b",
+          "bit_start": 352,
+          "size_bits": 128
+        },
+        {
+          "name": "AAAA Record IPv6 Address",
+          "offset": 44,
+          "length": 16,
+          "raw": "200104f80004000702e081fffe529a6b",
+          "bit_start": 352,
+          "size_bits": 128
+        }
+      ]
+    },
+    {
+      "frame_no": 13,
+      "hex": "7f390100000100000000000003777777066e6574627364036f726700001c0001",
+      "src_ip": "192.168.170.8",
+      "dst_ip": "192.168.170.20",
+      "src_port": 32795,
+      "dst_port": 53,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "7f39",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 16,
+          "raw": "03777777066e6574627364036f726700",
+          "bit_start": 96,
+          "size_bits": 128
+        },
+        {
+          "name": "Question Type",
+          "offset": 28,
+          "length": 2,
+          "raw": "001c",
+          "bit_start": 224,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 30,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 240,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 14,
+      "hex": "7f398180000100010000000003777777066e6574627364036f726700001c0001c00c001c0001000151440010200104f80004000702e081fffe529a6b",
+      "src_ip": "192.168.170.20",
+      "dst_ip": "192.168.170.8",
+      "src_port": 53,
+      "dst_port": 32795,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "7f39",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 16,
+          "raw": "03777777066e6574627364036f726700",
+          "bit_start": 96,
+          "size_bits": 128
+        },
+        {
+          "name": "Question Type",
+          "offset": 28,
+          "length": 2,
+          "raw": "001c",
+          "bit_start": 224,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 30,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 240,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 32,
+          "length": 2,
+          "raw": "c00c",
+          "bit_start": 256,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 34,
+          "length": 2,
+          "raw": "001c",
+          "bit_start": 272,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 36,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 288,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 38,
+          "length": 4,
+          "raw": "00015144",
+          "bit_start": 304,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 42,
+          "length": 2,
+          "raw": "0010",
+          "bit_start": 336,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 44,
+          "length": 16,
+          "raw": "200104f80004000702e081fffe529a6b",
+          "bit_start": 352,
+          "size_bits": 128
+        },
+        {
+          "name": "AAAA Record IPv6 Address",
+          "offset": 44,
+          "length": 16,
+          "raw": "200104f80004000702e081fffe529a6b",
+          "bit_start": 352,
+          "size_bits": 128
+        }
+      ]
+    },
+    {
+      "frame_no": 15,
+      "hex": "8db3010000010000000000000377777706676f6f676c6503636f6d00001c0001",
+      "src_ip": "192.168.170.8",
+      "dst_ip": "192.168.170.20",
+      "src_port": 32795,
+      "dst_port": 53,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "8db3",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 16,
+          "raw": "0377777706676f6f676c6503636f6d00",
+          "bit_start": 96,
+          "size_bits": 128
+        },
+        {
+          "name": "Question Type",
+          "offset": 28,
+          "length": 2,
+          "raw": "001c",
+          "bit_start": 224,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 30,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 240,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 16,
+      "hex": "8db3818000010001000000000377777706676f6f676c6503636f6d00001c0001c00c0005000100000279000803777777016cc010",
+      "src_ip": "192.168.170.20",
+      "dst_ip": "192.168.170.8",
+      "src_port": 53,
+      "dst_port": 32795,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "8db3",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 16,
+          "raw": "0377777706676f6f676c6503636f6d00",
+          "bit_start": 96,
+          "size_bits": 128
+        },
+        {
+          "name": "Question Type",
+          "offset": 28,
+          "length": 2,
+          "raw": "001c",
+          "bit_start": 224,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 30,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 240,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 32,
+          "length": 2,
+          "raw": "c00c",
+          "bit_start": 256,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 34,
+          "length": 2,
+          "raw": "0005",
+          "bit_start": 272,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 36,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 288,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 38,
+          "length": 4,
+          "raw": "00000279",
+          "bit_start": 304,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 42,
+          "length": 2,
+          "raw": "0008",
+          "bit_start": 336,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 44,
+          "length": 8,
+          "raw": "03777777016cc010",
+          "bit_start": 352,
+          "size_bits": 64
+        },
+        {
+          "name": "CNAME Canonical Name",
+          "offset": 44,
+          "length": 8,
+          "raw": "03777777016cc010",
+          "bit_start": 352,
+          "size_bits": 64
+        }
+      ]
+    },
+    {
+      "frame_no": 17,
+      "hex": "dca20100000100000000000003777777016c06676f6f676c6503636f6d00001c0001",
+      "src_ip": "192.168.170.8",
+      "dst_ip": "192.168.170.20",
+      "src_port": 32795,
+      "dst_port": 53,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "dca2",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 18,
+          "raw": "03777777016c06676f6f676c6503636f6d00",
+          "bit_start": 96,
+          "size_bits": 144
+        },
+        {
+          "name": "Question Type",
+          "offset": 30,
+          "length": 2,
+          "raw": "001c",
+          "bit_start": 240,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 32,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 256,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 18,
+      "hex": "dca28180000100000000000003777777016c06676f6f676c6503636f6d00001c0001",
+      "src_ip": "192.168.170.20",
+      "dst_ip": "192.168.170.8",
+      "src_port": 53,
+      "dst_port": 32795,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "dca2",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 18,
+          "raw": "03777777016c06676f6f676c6503636f6d00",
+          "bit_start": 96,
+          "size_bits": 144
+        },
+        {
+          "name": "Question Type",
+          "offset": 30,
+          "length": 2,
+          "raw": "001c",
+          "bit_start": 240,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 32,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 256,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 19,
+      "hex": "bc1f0100000100000000000003777777076578616d706c6503636f6d00001c0001",
+      "src_ip": "192.168.170.8",
+      "dst_ip": "192.168.170.20",
+      "src_port": 32795,
+      "dst_port": 53,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "bc1f",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 17,
+          "raw": "03777777076578616d706c6503636f6d00",
+          "bit_start": 96,
+          "size_bits": 136
+        },
+        {
+          "name": "Question Type",
+          "offset": 29,
+          "length": 2,
+          "raw": "001c",
+          "bit_start": 232,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 31,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 248,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 20,
+      "hex": "bc1f8180000100000000000003777777076578616d706c6503636f6d00001c0001",
+      "src_ip": "192.168.170.20",
+      "dst_ip": "192.168.170.8",
+      "src_port": 53,
+      "dst_port": 32795,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "bc1f",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 17,
+          "raw": "03777777076578616d706c6503636f6d00",
+          "bit_start": 96,
+          "size_bits": 136
+        },
+        {
+          "name": "Question Type",
+          "offset": 29,
+          "length": 2,
+          "raw": "001c",
+          "bit_start": 232,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 31,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 248,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 21,
+      "hex": "266d0100000100000000000003777777076578616d706c65076e6f7467696e6800001c0001",
+      "src_ip": "192.168.170.8",
+      "dst_ip": "192.168.170.20",
+      "src_port": 32795,
+      "dst_port": 53,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "266d",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 21,
+          "raw": "03777777076578616d706c65076e6f7467696e6800",
+          "bit_start": 96,
+          "size_bits": 168
+        },
+        {
+          "name": "Question Type",
+          "offset": 33,
+          "length": 2,
+          "raw": "001c",
+          "bit_start": 264,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 35,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 280,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 22,
+      "hex": "266d8583000100000000000003777777076578616d706c65076e6f7467696e6800001c0001",
+      "src_ip": "192.168.170.20",
+      "dst_ip": "192.168.170.8",
+      "src_port": 53,
+      "dst_port": 32795,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "266d",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "83",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "83",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "83",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 21,
+          "raw": "03777777076578616d706c65076e6f7467696e6800",
+          "bit_start": 96,
+          "size_bits": 168
+        },
+        {
+          "name": "Question Type",
+          "offset": 33,
+          "length": 2,
+          "raw": "001c",
+          "bit_start": 264,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 35,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 280,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 23,
+      "hex": "fee3010000010000000000000377777703697363036f72670000ff0001",
+      "src_ip": "192.168.170.8",
+      "dst_ip": "192.168.170.20",
+      "src_port": 32795,
+      "dst_port": 53,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "fee3",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 13,
+          "raw": "0377777703697363036f726700",
+          "bit_start": 96,
+          "size_bits": 104
+        },
+        {
+          "name": "Question Type",
+          "offset": 25,
+          "length": 2,
+          "raw": "00ff",
+          "bit_start": 200,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 27,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 216,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 24,
+      "hex": "fee3818000010002000000000377777703697363036f72670000ff0001c00c001c0001000002580010200104f800000002000000000000000dc00c00010001000002580004cc98b858",
+      "src_ip": "192.168.170.20",
+      "dst_ip": "192.168.170.8",
+      "src_port": 53,
+      "dst_port": 32795,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "fee3",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0002",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 13,
+          "raw": "0377777703697363036f726700",
+          "bit_start": 96,
+          "size_bits": 104
+        },
+        {
+          "name": "Question Type",
+          "offset": 25,
+          "length": 2,
+          "raw": "00ff",
+          "bit_start": 200,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 27,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 216,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 29,
+          "length": 2,
+          "raw": "c00c",
+          "bit_start": 232,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 31,
+          "length": 2,
+          "raw": "001c",
+          "bit_start": 248,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 33,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 264,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 35,
+          "length": 4,
+          "raw": "00000258",
+          "bit_start": 280,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 39,
+          "length": 2,
+          "raw": "0010",
+          "bit_start": 312,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 41,
+          "length": 16,
+          "raw": "200104f800000002000000000000000d",
+          "bit_start": 328,
+          "size_bits": 128
+        },
+        {
+          "name": "AAAA Record IPv6 Address",
+          "offset": 41,
+          "length": 16,
+          "raw": "200104f800000002000000000000000d",
+          "bit_start": 328,
+          "size_bits": 128
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 57,
+          "length": 2,
+          "raw": "c00c",
+          "bit_start": 456,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 59,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 472,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 61,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 488,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 63,
+          "length": 4,
+          "raw": "00000258",
+          "bit_start": 504,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 67,
+          "length": 2,
+          "raw": "0004",
+          "bit_start": 536,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 69,
+          "length": 4,
+          "raw": "cc98b858",
+          "bit_start": 552,
+          "size_bits": 32
+        },
+        {
+          "name": "A Record IPv4 Address",
+          "offset": 69,
+          "length": 4,
+          "raw": "cc98b858",
+          "bit_start": 552,
+          "size_bits": 32
+        }
+      ]
+    },
+    {
+      "frame_no": 25,
+      "hex": "5a53010000010000000000000131013001300331323707696e2d61646472046172706100000c0001",
+      "src_ip": "192.168.170.8",
+      "dst_ip": "192.168.170.20",
+      "src_port": 32796,
+      "dst_port": 53,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "5a53",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 24,
+          "raw": "0131013001300331323707696e2d61646472046172706100",
+          "bit_start": 96,
+          "size_bits": 192
+        },
+        {
+          "name": "Question Type",
+          "offset": 36,
+          "length": 2,
+          "raw": "000c",
+          "bit_start": 288,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 38,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 304,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 26,
+      "hex": "5a53858000010001000000000131013001300331323707696e2d61646472046172706100000c0001c00c000c000100000e10000b096c6f63616c686f737400",
+      "src_ip": "192.168.170.20",
+      "dst_ip": "192.168.170.8",
+      "src_port": 53,
+      "dst_port": 32796,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "5a53",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 24,
+          "raw": "0131013001300331323707696e2d61646472046172706100",
+          "bit_start": 96,
+          "size_bits": 192
+        },
+        {
+          "name": "Question Type",
+          "offset": 36,
+          "length": 2,
+          "raw": "000c",
+          "bit_start": 288,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 38,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 304,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 40,
+          "length": 2,
+          "raw": "c00c",
+          "bit_start": 320,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 42,
+          "length": 2,
+          "raw": "000c",
+          "bit_start": 336,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 44,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 352,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 46,
+          "length": 4,
+          "raw": "00000e10",
+          "bit_start": 368,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 50,
+          "length": 2,
+          "raw": "000b",
+          "bit_start": 400,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 52,
+          "length": 11,
+          "raw": "096c6f63616c686f737400",
+          "bit_start": 416,
+          "size_bits": 88
+        }
+      ]
+    },
+    {
+      "frame_no": 27,
+      "hex": "208a0100000100000000000003697363036f72670000020001",
+      "src_ip": "192.168.170.8",
+      "dst_ip": "192.168.170.20",
+      "src_port": 32797,
+      "dst_port": 53,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "208a",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 9,
+          "raw": "03697363036f726700",
+          "bit_start": 96,
+          "size_bits": 72
+        },
+        {
+          "name": "Question Type",
+          "offset": 21,
+          "length": 2,
+          "raw": "0002",
+          "bit_start": 168,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 23,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 184,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 28,
+      "hex": "326e01000001000000000000055f6c646170045f7463701744656661756c742d46697273742d536974652d4e616d65065f7369746573026463065f6d736463730b7574656c73797374656d73056c6f63616c0000210001",
+      "src_ip": "192.168.170.56",
+      "dst_ip": "217.13.4.24",
+      "src_port": 1707,
+      "dst_port": 53,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "326e",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 71,
+          "raw": "055f6c646170045f7463701744656661756c742d46697273742d536974652d4e616d65065f7369746573026463065f6d736463730b7574656c73797374656d73056c6f63616c00",
+          "bit_start": 96,
+          "size_bits": 568
+        },
+        {
+          "name": "Question Type",
+          "offset": 83,
+          "length": 2,
+          "raw": "0021",
+          "bit_start": 664,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 85,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 680,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 29,
+      "hex": "208a8180000100040000000003697363036f72670000020001c00c0002000100000e10000e066e732d657874046e727431c00cc00c0002000100000e10000e066e732d6578740473746831c00cc00c0002000100000e100009066e732d657874c00cc00c0002000100000e10000e066e732d657874046c676131c00c",
+      "src_ip": "192.168.170.20",
+      "dst_ip": "192.168.170.8",
+      "src_port": 53,
+      "dst_port": 32797,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "208a",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "81",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "80",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0004",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 9,
+          "raw": "03697363036f726700",
+          "bit_start": 96,
+          "size_bits": 72
+        },
+        {
+          "name": "Question Type",
+          "offset": 21,
+          "length": 2,
+          "raw": "0002",
+          "bit_start": 168,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 23,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 184,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 25,
+          "length": 2,
+          "raw": "c00c",
+          "bit_start": 200,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 27,
+          "length": 2,
+          "raw": "0002",
+          "bit_start": 216,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 29,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 232,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 31,
+          "length": 4,
+          "raw": "00000e10",
+          "bit_start": 248,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 35,
+          "length": 2,
+          "raw": "000e",
+          "bit_start": 280,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 37,
+          "length": 14,
+          "raw": "066e732d657874046e727431c00c",
+          "bit_start": 296,
+          "size_bits": 112
+        },
+        {
+          "name": "NS Name Server",
+          "offset": 37,
+          "length": 14,
+          "raw": "066e732d657874046e727431c00c",
+          "bit_start": 296,
+          "size_bits": 112
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 51,
+          "length": 2,
+          "raw": "c00c",
+          "bit_start": 408,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 53,
+          "length": 2,
+          "raw": "0002",
+          "bit_start": 424,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 55,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 440,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 57,
+          "length": 4,
+          "raw": "00000e10",
+          "bit_start": 456,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 61,
+          "length": 2,
+          "raw": "000e",
+          "bit_start": 488,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 63,
+          "length": 14,
+          "raw": "066e732d6578740473746831c00c",
+          "bit_start": 504,
+          "size_bits": 112
+        },
+        {
+          "name": "NS Name Server",
+          "offset": 63,
+          "length": 14,
+          "raw": "066e732d6578740473746831c00c",
+          "bit_start": 504,
+          "size_bits": 112
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 77,
+          "length": 2,
+          "raw": "c00c",
+          "bit_start": 616,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 79,
+          "length": 2,
+          "raw": "0002",
+          "bit_start": 632,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 81,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 648,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 83,
+          "length": 4,
+          "raw": "00000e10",
+          "bit_start": 664,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 87,
+          "length": 2,
+          "raw": "0009",
+          "bit_start": 696,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 89,
+          "length": 9,
+          "raw": "066e732d657874c00c",
+          "bit_start": 712,
+          "size_bits": 72
+        },
+        {
+          "name": "NS Name Server",
+          "offset": 89,
+          "length": 9,
+          "raw": "066e732d657874c00c",
+          "bit_start": 712,
+          "size_bits": 72
+        },
+        {
+          "name": "Resource Record Name",
+          "offset": 98,
+          "length": 2,
+          "raw": "c00c",
+          "bit_start": 784,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Type",
+          "offset": 100,
+          "length": 2,
+          "raw": "0002",
+          "bit_start": 800,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Class",
+          "offset": 102,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 816,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Time To Live",
+          "offset": 104,
+          "length": 4,
+          "raw": "00000e10",
+          "bit_start": 832,
+          "size_bits": 32
+        },
+        {
+          "name": "Resource Record Data Length",
+          "offset": 108,
+          "length": 2,
+          "raw": "000e",
+          "bit_start": 864,
+          "size_bits": 16
+        },
+        {
+          "name": "Resource Record Data",
+          "offset": 110,
+          "length": 14,
+          "raw": "066e732d657874046c676131c00c",
+          "bit_start": 880,
+          "size_bits": 112
+        },
+        {
+          "name": "NS Name Server",
+          "offset": 110,
+          "length": 14,
+          "raw": "066e732d657874046c676131c00c",
+          "bit_start": 880,
+          "size_bits": 112
+        }
+      ]
+    },
+    {
+      "frame_no": 30,
+      "hex": "326e85830001000000000000055f6c646170045f7463701744656661756c742d46697273742d536974652d4e616d65065f7369746573026463065f6d736463730b7574656c73797374656d73056c6f63616c0000210001",
+      "src_ip": "217.13.4.24",
+      "dst_ip": "192.168.170.56",
+      "src_port": 53,
+      "dst_port": 1707,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "326e",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "83",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "83",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "83",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 71,
+          "raw": "055f6c646170045f7463701744656661756c742d46697273742d536974652d4e616d65065f7369746573026463065f6d736463730b7574656c73797374656d73056c6f63616c00",
+          "bit_start": 96,
+          "size_bits": 568
+        },
+        {
+          "name": "Question Type",
+          "offset": 83,
+          "length": 2,
+          "raw": "0021",
+          "bit_start": 664,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 85,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 680,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 31,
+      "hex": "f16101000001000000000000055f6c646170045f746370026463065f6d736463730b7574656c73797374656d73056c6f63616c0000210001",
+      "src_ip": "192.168.170.56",
+      "dst_ip": "217.13.4.24",
+      "src_port": 1708,
+      "dst_port": 53,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "f161",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 40,
+          "raw": "055f6c646170045f746370026463065f6d736463730b7574656c73797374656d73056c6f63616c00",
+          "bit_start": 96,
+          "size_bits": 320
+        },
+        {
+          "name": "Question Type",
+          "offset": 52,
+          "length": 2,
+          "raw": "0021",
+          "bit_start": 416,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 54,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 432,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 32,
+      "hex": "f16185830001000000000000055f6c646170045f746370026463065f6d736463730b7574656c73797374656d73056c6f63616c0000210001",
+      "src_ip": "217.13.4.24",
+      "dst_ip": "192.168.170.56",
+      "src_port": 53,
+      "dst_port": 1708,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "f161",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "83",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "83",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "83",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 40,
+          "raw": "055f6c646170045f746370026463065f6d736463730b7574656c73797374656d73056c6f63616c00",
+          "bit_start": 96,
+          "size_bits": 320
+        },
+        {
+          "name": "Question Type",
+          "offset": 52,
+          "length": 2,
+          "raw": "0021",
+          "bit_start": 416,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 54,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 432,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 33,
+      "hex": "836101000001000000000000055f6c646170045f7463702430356235323932622d333462382d346662372d383561332d38626565663566643230363907646f6d61696e73065f6d736463730b7574656c73797374656d73056c6f63616c0000210001",
+      "src_ip": "192.168.170.56",
+      "dst_ip": "217.13.4.24",
+      "src_port": 1709,
+      "dst_port": 53,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "8361",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 82,
+          "raw": "055f6c646170045f7463702430356235323932622d333462382d346662372d383561332d38626565663566643230363907646f6d61696e73065f6d736463730b7574656c73797374656d73056c6f63616c00",
+          "bit_start": 96,
+          "size_bits": 656
+        },
+        {
+          "name": "Question Type",
+          "offset": 94,
+          "length": 2,
+          "raw": "0021",
+          "bit_start": 752,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 96,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 768,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 34,
+      "hex": "836185830001000000000000055f6c646170045f7463702430356235323932622d333462382d346662372d383561332d38626565663566643230363907646f6d61696e73065f6d736463730b7574656c73797374656d73056c6f63616c0000210001",
+      "src_ip": "217.13.4.24",
+      "dst_ip": "192.168.170.56",
+      "src_port": 53,
+      "dst_port": 1709,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "8361",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "83",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "83",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "83",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 82,
+          "raw": "055f6c646170045f7463702430356235323932622d333462382d346662372d383561332d38626565663566643230363907646f6d61696e73065f6d736463730b7574656c73797374656d73056c6f63616c00",
+          "bit_start": 96,
+          "size_bits": 656
+        },
+        {
+          "name": "Question Type",
+          "offset": 94,
+          "length": 2,
+          "raw": "0021",
+          "bit_start": 752,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 96,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 768,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 35,
+      "hex": "d06001000001000000000000054752494d4d0b7574656c73797374656d73056c6f63616c0000010001",
+      "src_ip": "192.168.170.56",
+      "dst_ip": "217.13.4.24",
+      "src_port": 1710,
+      "dst_port": 53,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "d060",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 25,
+          "raw": "054752494d4d0b7574656c73797374656d73056c6f63616c00",
+          "bit_start": 96,
+          "size_bits": 200
+        },
+        {
+          "name": "Question Type",
+          "offset": 37,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 296,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 39,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 312,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 36,
+      "hex": "d06085830001000000000000054752494d4d0b7574656c73797374656d73056c6f63616c0000010001",
+      "src_ip": "217.13.4.24",
+      "dst_ip": "192.168.170.56",
+      "src_port": 53,
+      "dst_port": 1710,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "d060",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "83",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "83",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "83",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 25,
+          "raw": "054752494d4d0b7574656c73797374656d73056c6f63616c00",
+          "bit_start": 96,
+          "size_bits": 200
+        },
+        {
+          "name": "Question Type",
+          "offset": 37,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 296,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 39,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 312,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 37,
+      "hex": "766301000001000000000000054752494d4d0b7574656c73797374656d73056c6f63616c0000010001",
+      "src_ip": "192.168.170.56",
+      "dst_ip": "217.13.4.24",
+      "src_port": 1711,
+      "dst_port": 53,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "7663",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "01",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "00",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 25,
+          "raw": "054752494d4d0b7574656c73797374656d73056c6f63616c00",
+          "bit_start": 96,
+          "size_bits": 200
+        },
+        {
+          "name": "Question Type",
+          "offset": 37,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 296,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 39,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 312,
+          "size_bits": 16
+        }
+      ]
+    },
+    {
+      "frame_no": 38,
+      "hex": "766385830001000000000000054752494d4d0b7574656c73797374656d73056c6f63616c0000010001",
+      "src_ip": "217.13.4.24",
+      "dst_ip": "192.168.170.56",
+      "src_port": 53,
+      "dst_port": 1711,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "7663",
+          "bit_start": 0,
+          "size_bits": 16
+        },
+        {
+          "name": "Query Response Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 16,
+          "size_bits": 1
+        },
+        {
+          "name": "Opcode",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 17,
+          "size_bits": 4
+        },
+        {
+          "name": "Authoritative Answer Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 21,
+          "size_bits": 1
+        },
+        {
+          "name": "Truncation Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 22,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Desired Flag",
+          "offset": 2,
+          "length": 1,
+          "raw": "85",
+          "bit_start": 23,
+          "size_bits": 1
+        },
+        {
+          "name": "Recursion Available Flag",
+          "offset": 3,
+          "length": 1,
+          "raw": "83",
+          "bit_start": 24,
+          "size_bits": 1
+        },
+        {
+          "name": "Reserved Z Bits",
+          "offset": 3,
+          "length": 1,
+          "raw": "83",
+          "bit_start": 25,
+          "size_bits": 3
+        },
+        {
+          "name": "Response Code",
+          "offset": 3,
+          "length": 1,
+          "raw": "83",
+          "bit_start": 28,
+          "size_bits": 4
+        },
+        {
+          "name": "Question Count",
+          "offset": 4,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 32,
+          "size_bits": 16
+        },
+        {
+          "name": "Answer Record Count",
+          "offset": 6,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 48,
+          "size_bits": 16
+        },
+        {
+          "name": "Authority Record Count",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 64,
+          "size_bits": 16
+        },
+        {
+          "name": "Additional Record Count",
+          "offset": 10,
+          "length": 2,
+          "raw": "0000",
+          "bit_start": 80,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Name",
+          "offset": 12,
+          "length": 25,
+          "raw": "054752494d4d0b7574656c73797374656d73056c6f63616c00",
+          "bit_start": 96,
+          "size_bits": 200
+        },
+        {
+          "name": "Question Type",
+          "offset": 37,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 296,
+          "size_bits": 16
+        },
+        {
+          "name": "Question Class",
+          "offset": 39,
+          "length": 2,
+          "raw": "0001",
+          "bit_start": 312,
+          "size_bits": 16
+        }
+      ]
+    }
+  ]
+}

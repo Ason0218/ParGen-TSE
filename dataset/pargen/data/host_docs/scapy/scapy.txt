@@ -1,0 +1,108 @@
+PARGEN HOST DOCS — SCAPY (Stage C)
+
+This directory provides host documentation (Host-IR) for generating and repairing Scapy-based
+protocol parsers (Python code) in Stage C.
+
+Goal (what Stage C should generate)
+----------------------------------
+- A Python module under `outputs/stage_c/plugin/scapy/` that defines one or more Scapy `Packet`
+  classes for the target protocol.
+- The module should register the protocol layer to TCP/UDP ports using `bind_layers`, preferably
+  for BOTH directions:
+    bind_layers(TCP, Proto, dport=PORT)
+    bind_layers(TCP, Proto, sport=PORT)
+  (Similarly for UDP.)
+
+What matters for ParGen evaluation
+-------------------------------------
+- The parser must be importable (no side effects beyond class definitions + bind_layers).
+- Each on-wire leaf field should be dissected as its own Scapy Field entry (byte aligned).
+- Length fields must be dissected as standalone fields and then used to bound subsequent fields,
+  e.g., FieldLenField + StrLenField/PacketLenField/PacketListField.
+- Selector/condition fields must be dissected as standalone fields and then used with
+  ConditionalField and/or variant Packet classes (avoid ad-hoc slicing without parsing the selector).
+- Main experiments should expose target-core fields through public Scapy Packet/Field APIs, not through
+  ParGen-specific reporting hooks.
+- Diagnostic-only: when debugging an exporter limitation, the generated module may define an optional
+  `pargen_extra_fields` hook:
+
+    def pargen_extra_fields(raw: bytes, **kwargs) -> dict:
+        return {
+            "fields": [
+                {
+                    "name": "Field Name",
+                    "offset": 4,          # byte offset relative to the protocol payload
+                    "length": 2,          # byte length, or use bit_start/size_bits for bitfields
+                    "raw": "0010",       # optional hex string
+                    "value": "16",       # optional display value
+                    "value_int": 16,      # optional integer value
+                }
+            ]
+        }
+
+  When explicitly enabled, the exporter calls this hook once per packet with the full protocol payload in `raw`; returned
+  offsets must be absolute offsets relative to the start of that protocol payload. Do not write a hook
+  that expects `raw` to be only an inner field such as RDATA/IE Value unless the hook itself first
+  locates that inner field in the full packet. This hook is not part of the paper's pure Scapy parser
+  evaluation path; use public Scapy fields for reportable parser-quality results. Runtime constraint
+  checks still belong in `post_dissect`.
+
+Constraint validation (ParGen requirement)
+---------------------------------------------
+- ParGen expects the *generated parser itself* to validate Parse-IR constraints and proactively alert.
+- Store violations on the packet object as:
+    pkt._pargen_constraint_violations: list[str]
+  where each entry includes a deterministic tag like: `BS_CONSTRAINT <id> ...`.
+- IMPORTANT: perform validation on *parsing* by implementing `Packet.post_dissect(self, s)` and appending
+  violations there. Do NOT rely on `post_build()` only (it is not called when dissecting PCAP bytes).
+- For ConditionalField presence/absence checks, prefer inspecting `pkt.fields` (parsed fields) instead of
+  `hasattr(pkt, ...)` (may return defaults even when bytes were absent).
+
+Recommended Scapy APIs / patterns
+---------------------------------
+- Packet definition:
+    class MyProto(Packet):
+        name = "MyProto"
+        fields_desc = [
+            ByteField("field_a", 0),
+            ShortField("field_b", 0),
+        ]
+
+- Length-controlled payload:
+    FieldLenField("payload_len", None, length_of="payload", fmt="H")
+    StrLenField("payload", b"", length_from=lambda pkt: pkt.payload_len)
+
+- Optional fields:
+    ConditionalField(ByteField("flag", 0), lambda pkt: pkt.has_flag == 1)
+
+- Arrays/lists:
+    FieldLenField("count", None, count_of="items", fmt="B")
+    PacketListField("items", [], ItemPacket, count_from=lambda pkt: pkt.count)
+
+  If `ItemPacket` is an element in a `PacketListField`, prevent Scapy from treating the
+  following bytes as that item's payload:
+
+    class ItemPacket(Packet):
+        fields_desc = [...]
+        def extract_padding(self, s):
+            return b"", s
+
+  This is required for counted sections such as "questions then answers" or TLV arrays where
+  one item is followed by another item or another section.
+
+- Registration to ports:
+    from scapy.layers.inet import TCP, UDP
+    from scapy.packet import bind_layers
+    bind_layers(TCP, MyProto, dport=502)
+    bind_layers(TCP, MyProto, sport=502)
+
+Notes / constraints
+-------------------
+- Keep all code compatible with Python 3.9+.
+- Avoid depending on undocumented Scapy internals; use public `Packet`/`Field` APIs.
+- Do not import Scapy's built-in or contrib parser for the target protocol, such as
+  `scapy.layers.<protocol>` or `scapy.contrib.<protocol>`. The generated parser must realize the
+  Parse-IR itself; importing an existing protocol parser is both an evaluation leak and may override
+  the generated layer's transport binding.
+- Do not perform file IO or network operations at import time.
+- Make outputs deterministic: no randomization, no dict-order dependence for field definitions.

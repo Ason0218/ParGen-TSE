@@ -1,0 +1,177 @@
+[
+  {
+    "id": "C1",
+    "description": "msg_len ≥ 8",
+    "expected": true
+  },
+  {
+    "id": "C2",
+    "description": "Type = 0 ⇒ Code = 0",
+    "expected": true
+  },
+  {
+    "id": "C3",
+    "description": "Type = 8 ⇒ Code = 0",
+    "expected": true
+  },
+  {
+    "id": "C4",
+    "description": "Type = 3 ⇒ msg_len ≥ 36",
+    "expected": true
+  },
+  {
+    "id": "C5",
+    "description": "Type = 3 ∧ Code ≠ 4 ⇒ Unused32 = 0",
+    "expected": true
+  },
+  {
+    "id": "C6",
+    "description": "Type = 3 ∧ Code = 4 ⇒ Unused16 = 0",
+    "expected": true
+  },
+  {
+    "id": "C7",
+    "description": "Type = 4 ⇒ Code = 0",
+    "expected": true
+  },
+  {
+    "id": "C8",
+    "description": "Type = 4 ⇒ msg_len ≥ 36",
+    "expected": true
+  },
+  {
+    "id": "C9",
+    "description": "Type = 4 ⇒ Unused32 = 0",
+    "expected": true
+  },
+  {
+    "id": "C10",
+    "description": "Type = 5 ⇒ Code ∈ {0,1,2,3}",
+    "expected": true
+  },
+  {
+    "id": "C11",
+    "description": "Type = 5 ⇒ msg_len ≥ 36",
+    "expected": true
+  },
+  {
+    "id": "C12",
+    "description": "Type = 11 ⇒ Code ∈ {0,1}",
+    "expected": true
+  },
+  {
+    "id": "C13",
+    "description": "Type = 11 ⇒ msg_len ≥ 36",
+    "expected": true
+  },
+  {
+    "id": "C14",
+    "description": "Type = 11 ⇒ Unused32 = 0",
+    "expected": true
+  },
+  {
+    "id": "C15",
+    "description": "Type = 12 ⇒ Code ∈ {0,1,2}",
+    "expected": true
+  },
+  {
+    "id": "C16",
+    "description": "Type = 12 ⇒ msg_len ≥ 36",
+    "expected": true
+  },
+  {
+    "id": "C17",
+    "description": "Type = 12 ⇒ Unused24 = 0",
+    "expected": true
+  },
+  {
+    "id": "C18",
+    "description": "Type = 12 ∧ Code = 0 ⇒ Pointer < 4*EmbeddedIHL",
+    "expected": true
+  },
+  {
+    "id": "C19",
+    "description": "Type = 9 ⇒ Code = 0",
+    "expected": true
+  },
+  {
+    "id": "C20",
+    "description": "Type = 9 ⇒ NumAddrs ≥ 1",
+    "expected": true
+  },
+  {
+    "id": "C21",
+    "description": "Type = 9 ⇒ AddrEntrySize = 2",
+    "expected": true
+  },
+  {
+    "id": "C22",
+    "description": "Type = 9 ⇒ msg_len ≥ 8 + NumAddrs*AddrEntrySize*4",
+    "expected": true
+  },
+  {
+    "id": "C23",
+    "description": "Type = 10 ⇒ Code = 0",
+    "expected": true
+  },
+  {
+    "id": "C24",
+    "description": "Type = 10 ⇒ msg_len = 8",
+    "expected": true
+  },
+  {
+    "id": "C25",
+    "description": "Type = 10 ⇒ Reserved32 = 0",
+    "expected": true
+  },
+  {
+    "id": "C26",
+    "description": "Type = 13 ⇒ Code = 0 ∧ msg_len ≥ 20",
+    "expected": true
+  },
+  {
+    "id": "C27",
+    "description": "Type = 14 ⇒ Code = 0 ∧ msg_len ≥ 20",
+    "expected": true
+  },
+  {
+    "id": "C28",
+    "description": "Type = 15 ⇒ Code = 0 ∧ msg_len = 8",
+    "expected": true
+  },
+  {
+    "id": "C29",
+    "description": "Type = 16 ⇒ Code = 0 ∧ msg_len = 8",
+    "expected": true
+  },
+  {
+    "id": "C30",
+    "description": "Type = 17 ⇒ Code = 0 ∧ msg_len = 12",
+    "expected": true
+  },
+  {
+    "id": "C31",
+    "description": "Type = 18 ⇒ Code = 0 ∧ msg_len = 12",
+    "expected": true
+  },
+  {
+    "id": "C32",
+    "description": "Type ∈ {3,4,5,11,12} ⇒ EmbeddedVersion = 4",
+    "expected": true
+  },
+  {
+    "id": "C33",
+    "description": "Type ∈ {3,4,5,11,12} ⇒ 5 ≤ EmbeddedIHL ≤ 15",
+    "expected": true
+  },
+  {
+    "id": "C34",
+    "description": "Type ∈ {3,4,5,11,12} ⇒ 4*EmbeddedIHL ≤ (msg_len - 8)",
+    "expected": true
+  },
+  {
+    "id": "C35",
+    "description": "VerifyICMPChecksum(msg) = true",
+    "expected": true
+  }
+]

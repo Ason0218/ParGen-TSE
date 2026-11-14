@@ -1,0 +1,14 @@
+{
+  "profile_name": "modbus_scapy_registration",
+  "target_protocol": "modbus",
+  "host": "scapy",
+  "scapy": {
+    "registration": {
+      "transport": "tcp",
+      "port": 502,
+      "filter_name": "modbus",
+      "long_name": "Modbus/TCP (ParGen Scapy)",
+      "short_name": "Modbus/TCP (ParGen Scapy)"
+    }
+  }
+}

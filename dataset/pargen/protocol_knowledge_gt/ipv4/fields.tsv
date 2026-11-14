@@ -1,0 +1,22 @@
+# IPv4 packet field-level specs (id, boundary, dtype, name)
+# boundary is bit range [lo,hi] (inclusive) from start of the IPv4 header, or "dynamic".
+F1	[0,3]	uint	Version
+F2	[4,7]	uint	Header Length (Internet Header Length)
+F3	[8,13]	uint	Differentiated Services Code Point
+F4	[14,15]	uint	Explicit Congestion Notification
+F5	[16,31]	uint	Total Length
+F6	[32,47]	uint	Identification
+F7	[48,48]	bool	Reserved Flag
+F8	[49,49]	bool	Do Not Fragment Flag
+F9	[50,50]	bool	More Fragments Flag
+F10	[51,63]	uint	Fragment Offset
+F11	[64,71]	uint	Time To Live
+F12	[72,79]	uint	Protocol
+F13	[80,95]	uint	Header Checksum
+F14	[96,127]	uint	Source Address
+F15	[128,159]	uint	Destination Address
+F16	dynamic	binary	Options
+F17	dynamic	uint	Option Type
+F18	dynamic	uint	Option Length (present when Option Type is not 0 or 1)
+F19	dynamic	binary	Option Data (Option Length minus 2 bytes)
+F20	dynamic	binary	Header Padding (0x00 bytes after Options to align header length to 32-bit boundary)

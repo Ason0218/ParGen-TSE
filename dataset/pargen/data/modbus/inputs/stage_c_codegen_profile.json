@@ -1,0 +1,15 @@
+{
+  "profile_name": "modbus_wireshark_c_registration",
+  "target_protocol": "modbus",
+  "host": "wireshark_c",
+  "wireshark_c": {
+    "registration": {
+      "dissector_table": "tcp.port",
+      "port": 502,
+      "proto_abbrev": "modbus",
+      "filter_name": "modbus",
+      "long_name": "Modbus/TCP",
+      "short_name": "Modbus"
+    }
+  }
+}

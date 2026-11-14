@@ -1,0 +1,14 @@
+{
+  "profile_name": "bfd_scapy_registration",
+  "target_protocol": "bfd",
+  "host": "scapy",
+  "scapy": {
+    "registration": {
+      "transport": "udp",
+      "port": 3784,
+      "filter_name": "bfd_bs",
+      "long_name": "BFD Control (ParGen Scapy)",
+      "short_name": "BFD Control (ParGen Scapy)"
+    }
+  }
+}

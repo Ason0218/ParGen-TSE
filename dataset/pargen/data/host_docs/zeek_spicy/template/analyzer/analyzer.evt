@@ -1,0 +1,7 @@
+# The analyzer declaration lives in *.evt files.
+# Note: EVT files must start with an analyzer/on/import directive (no `module ...;` line here).
+
+protocol analyzer spicy::ParGen over TCP:
+    parse with ParGen::Message,
+    port 5555/tcp;
+

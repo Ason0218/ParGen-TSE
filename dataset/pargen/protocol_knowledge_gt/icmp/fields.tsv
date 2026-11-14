@@ -1,0 +1,76 @@
+# ID	Boundary	FieldType	FieldName
+# Boundaries are bit offsets from the start of the ICMP message (RFC 792).
+#
+# Notes:
+# - This spec is intentionally “knowledge-level”: it focuses on whether the tree
+#   models the header/body segmentation, names, and basic types/endianness.
+# - Many message-body rows are marked `dynamic` because the tree may model them
+#   as a variant/container with variable payload.
+F1	[0,7]	uint	Type
+F2	[8,15]	uint	Code
+F3	[16,31]	uint	Checksum
+F4	dynamic	binary	Message Body (depends on Type)
+
+# Echo Reply (Type=0)
+F5	dynamic	binary	Echo Reply Message Body (Type = 0)
+F6	[32,47]	uint	Echo Reply Identifier
+F7	[48,63]	uint	Echo Reply Sequence Number
+F8	dynamic	binary	Echo Reply Data
+
+# Destination Unreachable (Type=3)
+F9	dynamic	binary	Destination Unreachable Message Body (Type = 3)
+F10	[32,63]	uint	Destination Unreachable Unused
+F11	dynamic	binary	Destination Unreachable Internet Header Plus 64 Bits
+
+# Source Quench (Type=4)
+F12	dynamic	binary	Source Quench Message Body (Type = 4)
+F13	[32,63]	uint	Source Quench Unused
+F14	dynamic	binary	Source Quench Internet Header Plus 64 Bits
+
+# Redirect (Type=5)
+F15	dynamic	binary	Redirect Message Body (Type = 5)
+F16	[32,63]	uint	Redirect Gateway Internet Address
+F17	dynamic	binary	Redirect Internet Header Plus 64 Bits
+
+# Echo Request (Type=8)
+F18	dynamic	binary	Echo Request Message Body (Type = 8)
+F19	[32,47]	uint	Echo Request Identifier
+F20	[48,63]	uint	Echo Request Sequence Number
+F21	dynamic	binary	Echo Request Data
+
+# Time Exceeded (Type=11)
+F22	dynamic	binary	Time Exceeded Message Body (Type = 11)
+F23	[32,63]	uint	Time Exceeded Unused
+F24	dynamic	binary	Time Exceeded Internet Header Plus 64 Bits
+
+# Parameter Problem (Type=12)
+F25	dynamic	binary	Parameter Problem Message Body (Type = 12)
+F26	[32,39]	uint	Parameter Problem Pointer
+F27	[40,63]	uint	Parameter Problem Unused
+F28	dynamic	binary	Parameter Problem Internet Header Plus 64 Bits
+
+# Timestamp Request (Type=13)
+F29	[32,159]	binary	Timestamp Request Message Body (Type = 13)
+F30	[32,47]	uint	Timestamp Request Identifier
+F31	[48,63]	uint	Timestamp Request Sequence Number
+F32	[64,95]	uint	Timestamp Request Originate Timestamp
+F33	[96,127]	uint	Timestamp Request Receive Timestamp
+F34	[128,159]	uint	Timestamp Request Transmit Timestamp
+
+# Timestamp Reply (Type=14)
+F35	[32,159]	binary	Timestamp Reply Message Body (Type = 14)
+F36	[32,47]	uint	Timestamp Reply Identifier
+F37	[48,63]	uint	Timestamp Reply Sequence Number
+F38	[64,95]	uint	Timestamp Reply Originate Timestamp
+F39	[96,127]	uint	Timestamp Reply Receive Timestamp
+F40	[128,159]	uint	Timestamp Reply Transmit Timestamp
+
+# Information Request (Type=15)
+F41	[32,63]	binary	Information Request Message Body (Type = 15)
+F42	[32,47]	uint	Information Request Identifier
+F43	[48,63]	uint	Information Request Sequence Number
+
+# Information Reply (Type=16)
+F44	[32,63]	binary	Information Reply Message Body (Type = 16)
+F45	[32,47]	uint	Information Reply Identifier
+F46	[48,63]	uint	Information Reply Sequence Number

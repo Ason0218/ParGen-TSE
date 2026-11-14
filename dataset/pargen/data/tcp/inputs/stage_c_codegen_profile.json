@@ -1,0 +1,19 @@
+{
+  "profile_name": "tcp_wireshark_c_registration",
+  "target_protocol": "tcp",
+  "host": "wireshark_c",
+  "wireshark_c": {
+    "registration": {
+      "dissector_table": "ip.proto",
+      "port": 6,
+      "proto_abbrev": "tcp_bs",
+      "filter_name": "tcp_bs",
+      "long_name": "TCP Header (ParGen)",
+      "short_name": "TCP Header (ParGen)"
+    }
+  },
+  "extraction": {
+    "pcap_layer": "tcp_header",
+    "ip_proto": 6
+  }
+}

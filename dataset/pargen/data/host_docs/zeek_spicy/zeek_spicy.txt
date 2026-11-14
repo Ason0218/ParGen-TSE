@@ -1,0 +1,192 @@
+Zeek + Spicy Getting Started (POC Protocol Analyzer)
+=================================================
+
+This document is a consolidated excerpt (and lightly re-formatted) from the Zeek
+developer documentation section “Writing Analyzers with Spicy / Getting Started”.
+It demonstrates the minimal three-file setup required to build a Zeek protocol analyzer
+backed by a Spicy parser:
+
+  1) my-http.spicy  : Spicy grammar (parses a simple HTTP request line)
+  2) my-http.evt    : Zeek control file (register analyzer + define Zeek events)
+  3) my-http.zeek   : Zeek script (event handlers / prints output)
+
+-------------------------------------------------------------------------------
+my-http.spicy
+-------------------------------------------------------------------------------
+module MyHTTP;
+
+const Token      = /[^ \t\r\n]+/;
+const WhiteSpace = /[ \t]+/;
+const NewLine    = /\r?\n/;
+
+type Version = unit {
+    :       /HTTP\//;
+    number: /[0-9]+\.[0-9]+/;
+};
+
+public type RequestLine = unit {
+    method:  Token;
+    :        WhiteSpace;
+    uri:     Token;
+    :        WhiteSpace;
+    version: Version;
+    :        NewLine;
+
+    on %done {
+        print self.method, self.uri, self.version.number;
+        }
+};
+
+-------------------------------------------------------------------------------
+Preparations: create a PCAP with a single request line payload
+-------------------------------------------------------------------------------
+Because Zeek works from network packets, we first need a packet trace with the payload
+we want to parse. We can’t just use a normal HTTP session as our simple parser wouldn’t
+go further than just the first line of the protocol exchange and then bail out with an
+error. So instead, for our example we create a custom packet trace with a TCP connection
+that carries just a single HTTP request line as its payload:
+
+# tcpdump -i lo0 -w request-line.pcap port 12345 &
+# nc -l 12345 &
+# echo "GET /index.html HTTP/1.0" | nc localhost 12345
+# killall tcpdump nc
+
+-------------------------------------------------------------------------------
+my-http.evt
+-------------------------------------------------------------------------------
+protocol analyzer spicy::MyHTTP over TCP:
+    parse originator with MyHTTP::RequestLine,
+    port 12345/tcp;
+
+on MyHTTP::RequestLine -> event MyHTTP::request_line($conn, self.method, self.uri, self.version.number);
+
+Explanation (high-level):
+- The first block tells Zeek about the analyzer:
+  * Zeek-side analyzer name: spicy::MyHTTP
+  * Runs over TCP
+  * Originator-side entry point: MyHTTP::RequestLine
+  * Activate on responder port 12345/tcp
+- The second block maps a fully-parsed unit instance to a Zeek event:
+  * Trigger: MyHTTP::RequestLine
+  * Event: MyHTTP::request_line(...)
+  * $conn passes the Zeek-side connection identifier into the event.
+
+-------------------------------------------------------------------------------
+my-http.zeek
+-------------------------------------------------------------------------------
+event MyHTTP::request_line(c: connection, method: string, uri: string, version: string)
+    {
+    print fmt("Zeek saw from %s: %s %s %s", c$id$orig_h, method, uri, version);
+    }
+
+-------------------------------------------------------------------------------
+Build + Run
+-------------------------------------------------------------------------------
+Compile the Spicy grammar and EVT file into a single HLTO file with spicyz,
+then point Zeek at the produced file plus the Zeek script:
+
+# spicyz my-http.spicy my-http.evt -o my-http.hlto
+# zeek -Cr request-line.pcap my-http.hlto my-http.zeek
+
+Expected output:
+Zeek saw from 127.0.0.1: GET /index.html 1.0
+
+-------------------------------------------------------------------------------
+ParGen platform patterns: length-bounded TLV bodies
+-------------------------------------------------------------------------------
+Generated protocol analyzers often need to parse Tag-Length-Value or
+Type-Length-Value records. In Spicy, do not model these as only a raw value
+blob when the protocol knowledge contains child fields inside the value. The
+backend pattern is:
+
+  1) parse the tag/type/kind selector
+  2) parse the length
+  3) capture exactly that many bytes into a value buffer
+  4) dispatch on the selector and parse a body unit from the value buffer
+
+Example:
+
+module DemoTLV;
+import spicy;
+
+type NodeID = unit {
+    id_type: uint8;
+    switch (self.id_type) {
+        0 -> ipv4: bytes &size=4;
+        1 -> ipv6: bytes &size=16;
+        * -> raw: bytes &eod;
+    };
+};
+
+When the selector itself is a sub-byte field, do not use `bitfield(4)` as a
+standalone field: spicyz rejects non-byte-multiple bitfield container widths.
+Instead, parse the byte-multiple enclosing value region and expose each
+protocol leaf as a bit range. For example, a 4-bit selector followed by a
+32-bit value inside a 5-byte TLV value can be represented as:
+
+type SelectorWithIPv4 = unit {
+    selector_value: bitfield(40) {
+        selector: 0..3;
+        ipv4_value: 4..35;
+        reserved_tail: 36..39;
+    } &bit-order=spicy::BitOrder::MSB0;
+};
+
+Use unique field names for distinct bitfield containers in the same grammar
+(for example `Header_Flags`, `F_SEID_Flags`, `F_TEID_Flags`) rather than
+reusing `flags` everywhere. Export tooling needs an unambiguous bitfield
+layout to recover sub-byte leaf spans.
+
+type FTeid = unit {
+    F_TEID_Flags: bitfield(8) {
+        v6: 6;
+        v4: 7;
+    } &bit-order=spicy::BitOrder::MSB0;
+    teid: uint32;
+};
+
+For flag-dependent value layouts, create separate body units such as
+`FTeidV4`, `FTeidV6`, and `FTeidV4V6`, then select the right unit from the
+parent TLV/body switch. Avoid reading optional bytes unconditionally.
+
+type IE = unit {
+    ie_type: uint16;
+    ie_len: uint16;
+    value_bytes: bytes &size=self.ie_len;
+    switch (self.ie_type) {
+        60 -> node_id: NodeID &parse-from=self.value_bytes;
+        21 -> f_teid: FTeid &parse-from=self.value_bytes;
+        * -> raw_value: bytes &parse-from=self.value_bytes;
+    };
+};
+
+For grouped TLVs, the value itself is another length-bounded TLV sequence. Do
+not parse the grouped value as direct fixed fields unless the specification says
+the grouped value is fixed-width:
+
+type GroupedIE = unit {
+    nested_items: IE[] &eod;
+};
+
+Use this as a platform API pattern: the numeric selector values must come from
+the protocol specification / codegen profile, not from backend code.
+When the codegen profile describes a target-core evaluation scope, expand only
+the grouped variants whose child fields are in that scope; keep other grouped
+values as bounded value bytes so the parser does not emit unsupported helper
+fields.
+
+-------------------------------------------------------------------------------
+ParGen platform patterns: runtime constraints
+-------------------------------------------------------------------------------
+For generated parser validation, malformed negative seeds should be rejected by
+the analyzer. Use:
+
+- `field: T &requires=(...)` for local enum/range/reserved checks.
+- `: void &requires=(...)` when the check is not tied to one visible field.
+- `on %done { if (...) throw "BS_CONSTRAINT <id> ..."; }` for cross-field
+  checks such as length relations, selector/variant consistency, and "present
+  when" obligations.
+
+In binary exp-constraint evaluation, a parse failure is the expected signal for
+an abnormal packet. If a runtime message cannot carry a tag, keep the tag in a
+nearby source comment so audit tooling can still see the intended check.

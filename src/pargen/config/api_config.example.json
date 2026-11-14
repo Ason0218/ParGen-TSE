@@ -1,0 +1,12 @@
+{
+  "api_keys": {
+    "DEEPSEEK_API_KEY": "paste-your-deepseek-key"
+  },
+  "base_urls": {
+    "DEEPSEEK_BASE_URL": ""
+  },
+  "models": {
+    "DEEPSEEK_MODEL": "deepseek-v4-flash-0731"
+  },
+  "notes": "Copy this file to api_config.json and fill in the secrets. To use another OpenAI-compatible endpoint, set DEEPSEEK_BASE_URL to its chat-completions URL and DEEPSEEK_MODEL to its model id."
+}

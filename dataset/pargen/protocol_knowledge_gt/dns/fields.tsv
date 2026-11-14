@@ -1,0 +1,34 @@
+# DNS field-level specs (id, boundary, dtype, name)
+# Boundary is bit range [lo,hi] (inclusive) from start of the DNS message, or "dynamic".
+F1	[0,15]	uint	Transaction Identifier
+F2	[16,16]	bool	Query Response Flag
+F3	[17,20]	uint	Opcode
+F4	[21,21]	bool	Authoritative Answer Flag
+F5	[22,22]	bool	Truncation Flag
+F6	[23,23]	bool	Recursion Desired Flag
+F7	[24,24]	bool	Recursion Available Flag
+F8	[25,27]	uint	Reserved Z Bits
+F9	[28,31]	uint	Response Code
+F10	[32,47]	uint	Question Count
+F11	[48,63]	uint	Answer Record Count
+F12	[64,79]	uint	Authority Record Count
+F13	[80,95]	uint	Additional Record Count
+F14	dynamic	binary	Question Name
+F15	dynamic	uint	Question Type
+F16	dynamic	uint	Question Class
+F17	dynamic	binary	Resource Record Name
+F18	dynamic	uint	Resource Record Type
+F19	dynamic	uint	Resource Record Class
+F20	dynamic	uint	Resource Record Time To Live
+F21	dynamic	uint	Resource Record Data Length
+F22	dynamic	binary	Resource Record Data
+F23	dynamic	binary	Domain Name Label
+F24	dynamic	uint	Domain Name Compression Pointer
+F25	dynamic	string	A Record IPv4 Address
+F26	dynamic	string	AAAA Record IPv6 Address
+F27	dynamic	string	CNAME Canonical Name
+F28	dynamic	string	NS Name Server
+F29	dynamic	uint	MX Preference
+F30	dynamic	string	MX Exchange Name
+F31	dynamic	string	TXT Character String
+F32	dynamic	uint	OPT UDP Payload Size

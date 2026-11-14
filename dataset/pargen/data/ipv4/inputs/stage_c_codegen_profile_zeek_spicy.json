@@ -1,0 +1,14 @@
+{
+  "profile_name": "ipv4_zeek_spicy_registration",
+  "target_protocol": "ipv4",
+  "host": "zeek_spicy",
+  "zeek_spicy": {
+    "registration": {
+      "selector_type": "ethertype",
+      "selector": 2048,
+      "parent_packet_analyzer": "Ethernet",
+      "implementation": "packet_analyzer",
+      "entry_unit": "Datagram"
+    }
+  }
+}

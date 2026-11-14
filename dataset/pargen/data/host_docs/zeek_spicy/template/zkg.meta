@@ -1,0 +1,8 @@
+[package]
+name = pargen-zeek-spicy-template
+version = 0.0.1
+description = Minimal Zeek+Spicy protocol analyzer template for Stage C Host-IR learning
+
+[zeek]
+script_dir = scripts
+

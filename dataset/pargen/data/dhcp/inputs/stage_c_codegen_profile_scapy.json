@@ -1,0 +1,14 @@
+{
+  "profile_name": "dhcp_scapy_registration",
+  "target_protocol": "dhcp",
+  "host": "scapy",
+  "scapy": {
+    "registration": {
+      "transport": "udp",
+      "port": 67,
+      "filter_name": "dhcp_bs",
+      "long_name": "DHCP/BOOTP (ParGen Scapy)",
+      "short_name": "DHCP (ParGen Scapy)"
+    }
+  }
+}

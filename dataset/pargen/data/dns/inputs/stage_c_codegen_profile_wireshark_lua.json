@@ -1,0 +1,19 @@
+{
+  "profile_name": "dns_wireshark_lua_registration",
+  "target_protocol": "dns",
+  "host": "wireshark_lua",
+  "wireshark_lua": {
+    "registration": {
+      "dissector_table": "udp.port",
+      "port": 53,
+      "proto_abbrev": "dns_bs",
+      "filter_name": "dns_bs",
+      "long_name": "DNS (ParGen Lua)",
+      "short_name": "DNS (ParGen Lua)",
+      "disable_builtin_protocol": "dns"
+    }
+  },
+  "extraction": {
+    "pcap_layer": "transport_payload"
+  }
+}

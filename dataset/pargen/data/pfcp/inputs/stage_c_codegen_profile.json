@@ -1,0 +1,18 @@
+{
+  "profile_name": "pfcp_wireshark_c_registration",
+  "target_protocol": "pfcp",
+  "host": "wireshark_c",
+  "wireshark_c": {
+    "registration": {
+      "dissector_table": "udp.port",
+      "port": 8805,
+      "proto_abbrev": "pfcp_bs",
+      "filter_name": "pfcp_bs",
+      "long_name": "PFCP (ParGen)",
+      "short_name": "PFCP (ParGen)"
+    }
+  },
+  "extraction": {
+    "pcap_layer": "transport_payload"
+  }
+}

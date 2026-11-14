@@ -1,0 +1,17 @@
+{
+  "profile_name": "pfcp_scapy_registration",
+  "target_protocol": "pfcp",
+  "host": "scapy",
+  "scapy": {
+    "registration": {
+      "transport": "udp",
+      "port": 8805,
+      "filter_name": "pfcp_bs",
+      "long_name": "PFCP (ParGen Scapy)",
+      "short_name": "PFCP (ParGen Scapy)"
+    }
+  },
+  "extraction": {
+    "pcap_layer": "transport_payload"
+  }
+}

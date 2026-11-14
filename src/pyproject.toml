@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pargen"
+version = "0.2.0"
+description = "ParGen: protocol parser generation from natural-language specifications via conflict-aware refinement"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "ParGen Authors" }]
+dependencies = [
+    "anthropic>=0.71.0",
+    "numpy>=2.0.0",
+    "pdfplumber>=0.11.0",
+    "PyPDF2>=3.0.0",
+    "PyYAML>=6.0",
+    "requests>=2.32.0",
+    "tiktoken>=0.12.0",
+    "z3-solver>=4.15.0",
+]
+
+[project.scripts]
+pargen-spec = "pargen.specification_processing.cli:main"
+pargen-pkg = "pargen.protocol_knowledge.cli:main"
+pargen-parser = "pargen.parser_realization.cli:main"
+pargen-run = "pargen.run_pipeline:main"
+
+[tool.setuptools.packages.find]
+include = ["pargen*"]
+exclude = ["pargen.data*", "pargen.tests*"]

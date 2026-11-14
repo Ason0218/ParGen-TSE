@@ -1,0 +1,33 @@
+# TCP segment field-level specs (id, boundary, dtype, name)
+# boundary is bit range [lo,hi] (inclusive) from start of the TCP header, or "dynamic".
+F1	[0,15]	uint	Source Port
+F2	[16,31]	uint	Destination Port
+F3	[32,63]	uint	Sequence Number
+F4	[64,95]	uint	Acknowledgment Number
+F5	[96,99]	uint	Data Offset
+F6	[100,102]	uint	Reserved
+F7	[103,103]	bool	Accurate ECN
+F8	[104,104]	bool	Congestion Window Reduced Flag
+F9	[105,105]	bool	Explicit Congestion Notification Echo Flag
+F10	[106,106]	bool	Urgent Flag
+F11	[107,107]	bool	Acknowledgment Flag
+F12	[108,108]	bool	Push Flag
+F13	[109,109]	bool	Reset Flag
+F14	[110,110]	bool	Synchronize Flag
+F15	[111,111]	bool	Finish Flag
+F16	[112,127]	uint	Window Size
+F17	[128,143]	uint	Checksum
+F18	[144,159]	uint	Urgent Pointer
+F19	dynamic	binary	Options
+F20	dynamic	uint	Option Kind
+F21	dynamic	uint	Option Length
+F22	dynamic	binary	Option Data
+F23	dynamic	bool	Option End of Option List (Kind = 0)
+F24	dynamic	bool	Option No Operation (Kind = 1)
+F25	dynamic	uint	Option Maximum Segment Size (Kind = 2)
+F26	dynamic	uint	Option Window Scale (Kind = 3)
+F27	dynamic	bool	Option Selective Acknowledgment Permitted (Kind = 4)
+F28	dynamic	binary	Option Selective Acknowledgment (Kind = 5)
+F29	dynamic	uint	Option Timestamp Value (Kind = 8)
+F30	dynamic	uint	Option Timestamp Echo Reply (Kind = 8)
+F31	dynamic	binary	Option Multipath Transmission Control Protocol (Kind = 30)

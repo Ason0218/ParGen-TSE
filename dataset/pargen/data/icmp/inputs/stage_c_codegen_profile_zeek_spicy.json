@@ -1,0 +1,14 @@
+{
+  "profile_name": "icmp_zeek_spicy_registration",
+  "target_protocol": "icmp",
+  "host": "zeek_spicy",
+  "zeek_spicy": {
+    "registration": {
+      "selector_type": "ip_proto",
+      "selector": 1,
+      "parent_packet_analyzer": "IP",
+      "implementation": "packet_analyzer",
+      "entry_unit": "Message"
+    }
+  }
+}

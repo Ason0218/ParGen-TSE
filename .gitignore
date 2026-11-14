@@ -1,0 +1,27 @@
+# Local credentials
+src/pargen/config/api_config.json
+
+# Runtime outputs
+results/
+src/pargen/data
+src/pargen/data/
+dataset/pargen/data/_artifacts/
+dataset/pargen/data/logs/
+dataset/pargen/data/tools/
+dataset/pargen/data/*/logs/
+dataset/pargen/data/*/outputs/
+
+# Python/cache metadata
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and editor metadata
+.venv/
+venv/
+.DS_Store
+.idea/
+.vscode/
+*.egg-info/

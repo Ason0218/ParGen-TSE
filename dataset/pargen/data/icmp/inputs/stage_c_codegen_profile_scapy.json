@@ -1,0 +1,15 @@
+{
+  "profile_name": "icmp_scapy_registration",
+  "target_protocol": "icmp",
+  "host": "scapy",
+  "scapy": {
+    "registration": {
+      "transport": "ip",
+      "selector_type": "ip_proto",
+      "selector": 1,
+      "filter_name": "icmp_bs",
+      "long_name": "ICMPv4 (ParGen Scapy)",
+      "short_name": "ICMP (ParGen Scapy)"
+    }
+  }
+}

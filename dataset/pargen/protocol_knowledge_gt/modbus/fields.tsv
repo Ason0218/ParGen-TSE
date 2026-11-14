@@ -1,0 +1,115 @@
+# Modbus/TCP field-level specs (id, boundary, dtype, name)
+# boundary is bit range [lo,hi] (inclusive) from start of MBAP header, or "dynamic".
+F1	[0,15]	uint	Modbus Application Protocol Header Transaction Identifier
+F2	[16,31]	uint	Modbus Application Protocol Header Protocol Identifier
+F3	[32,47]	uint	Modbus Application Protocol Header Length
+F4	[48,55]	uint	Modbus Application Protocol Header Unit Identifier
+F5	[56,63]	uint	Protocol Data Unit Function Code
+F6	dynamic	binary	Protocol Data Unit Data (depends on Function Code)
+F7	[64,79]	uint	Read Coils Request Reference Number (Starting Address)
+F8	[80,95]	uint	Read Coils Request Quantity of Coils (Bit Count)
+F9	[64,71]	uint	Read Coils Response Byte Count
+F10	dynamic	binary	Read Coils Response Coil Status
+F11	[64,71]	uint	Read Coils Error Response Exception Code
+F12	[64,79]	uint	Read Discrete Inputs Request Reference Number (Starting Address)
+F13	[80,95]	uint	Read Discrete Inputs Request Quantity of Inputs (Bit Count)
+F14	[64,71]	uint	Read Discrete Inputs Response Byte Count
+F15	dynamic	binary	Read Discrete Inputs Response Input Status
+F16	[64,71]	uint	Read Discrete Inputs Error Response Exception Code
+F17	[64,79]	uint	Read Holding Registers Request Reference Number (Starting Address)
+F18	[80,95]	uint	Read Holding Registers Request Quantity of Registers (Word Count)
+F19	[64,71]	uint	Read Holding Registers Response Byte Count
+F20	dynamic	binary	Read Holding Registers Response Register Values
+F21	[64,71]	uint	Read Holding Registers Error Response Exception Code
+F22	[64,79]	uint	Read Input Registers Request Reference Number (Starting Address)
+F23	[80,95]	uint	Read Input Registers Request Quantity of Registers (Word Count)
+F24	[64,71]	uint	Read Input Registers Response Byte Count
+F25	dynamic	binary	Read Input Registers Response Register Values
+F26	[64,71]	uint	Read Input Registers Error Response Exception Code
+F27	[64,79]	uint	Write Single Coil Request Reference Number (Output Address)
+F28	[80,95]	uint	Write Single Coil Request Output Value
+F29	[64,79]	uint	Write Single Coil Response Reference Number (Output Address)
+F30	[80,95]	uint	Write Single Coil Response Output Value
+F31	[64,71]	uint	Write Single Coil Error Response Exception Code
+F32	[64,79]	uint	Write Single Register Request Reference Number (Register Address)
+F33	[80,95]	uint	Write Single Register Request Register Value
+F34	[64,79]	uint	Write Single Register Response Reference Number (Register Address)
+F35	[80,95]	uint	Write Single Register Response Register Value
+F36	[64,71]	uint	Write Single Register Error Response Exception Code
+F37	[64,71]	uint	Read Exception Status Response Exception Status
+F38	[64,71]	uint	Read Exception Status Error Response Exception Code
+F39	[64,79]	uint	Diagnostics Request Subfunction
+F40	[80,95]	uint	Diagnostics Request Data
+F41	[64,79]	uint	Diagnostics Response Subfunction
+F42	[80,95]	uint	Diagnostics Response Data
+F43	[64,71]	uint	Diagnostics Error Response Exception Code
+F44	[64,79]	uint	Get Communication Event Counter Response Status
+F45	[80,95]	uint	Get Communication Event Counter Response Event Count
+F46	[64,71]	uint	Get Communication Event Counter Error Response Exception Code
+F47	[64,71]	uint	Get Communication Event Log Response Byte Count
+F48	[72,87]	uint	Get Communication Event Log Response Status
+F49	[88,103]	uint	Get Communication Event Log Response Event Count
+F50	[104,119]	uint	Get Communication Event Log Response Message Count
+F51	dynamic	binary	Get Communication Event Log Response Events
+F52	[64,71]	uint	Get Communication Event Log Error Response Exception Code
+F53	[64,79]	uint	Write Multiple Coils Request Reference Number (Starting Address)
+F54	[80,95]	uint	Write Multiple Coils Request Quantity of Outputs (Bit Count)
+F55	[96,103]	uint	Write Multiple Coils Request Byte Count
+F56	dynamic	binary	Write Multiple Coils Request Outputs Value
+F57	[64,79]	uint	Write Multiple Coils Response Reference Number (Starting Address)
+F58	[80,95]	uint	Write Multiple Coils Response Quantity of Outputs (Bit Count)
+F59	[64,71]	uint	Write Multiple Coils Error Response Exception Code
+F60	[64,79]	uint	Write Multiple Registers Request Reference Number (Starting Address)
+F61	[80,95]	uint	Write Multiple Registers Request Quantity of Registers (Word Count)
+F62	[96,103]	uint	Write Multiple Registers Request Byte Count
+F63	dynamic	binary	Write Multiple Registers Request Register Values
+F64	[64,79]	uint	Write Multiple Registers Response Reference Number (Starting Address)
+F65	[80,95]	uint	Write Multiple Registers Response Quantity of Registers (Word Count)
+F66	[64,71]	uint	Write Multiple Registers Error Response Exception Code
+F67	[64,71]	uint	Report Slave Identifier Response Byte Count
+F68	[72,79]	uint	Report Slave Identifier Response Slave Identifier
+F69	[80,87]	uint	Report Slave Identifier Response Run Indicator Status
+F70	dynamic	binary	Report Slave Identifier Response Additional Data
+F71	[64,71]	uint	Report Slave Identifier Error Response Exception Code
+F72	[64,71]	uint	Read File Record Request Byte Count
+F73	dynamic	binary	Read File Record Request Subrequest Data
+F74	[64,71]	uint	Read File Record Response Data Length
+F75	dynamic	binary	Read File Record Response Subresponse Data
+F76	[64,71]	uint	Read File Record Error Response Exception Code
+F77	[64,71]	uint	Write File Record Request Data Length
+F78	dynamic	binary	Write File Record Request Subrequest Data
+F79	[64,71]	uint	Write File Record Response Data Length
+F80	dynamic	binary	Write File Record Response Subresponse Data
+F81	[64,71]	uint	Write File Record Error Response Exception Code
+F82	[64,79]	uint	Mask Write Register Request Reference Address
+F83	[80,95]	uint	Mask Write Register Request And Mask
+F84	[96,111]	uint	Mask Write Register Request Or Mask
+F85	[64,79]	uint	Mask Write Register Response Reference Address
+F86	[80,95]	uint	Mask Write Register Response And Mask
+F87	[96,111]	uint	Mask Write Register Response Or Mask
+F88	[64,71]	uint	Mask Write Register Error Response Exception Code
+F89	[64,79]	uint	Read and Write Multiple Registers Request Read Starting Address
+F90	[80,95]	uint	Read and Write Multiple Registers Request Quantity to Read
+F91	[96,111]	uint	Read and Write Multiple Registers Request Write Starting Address
+F92	[112,127]	uint	Read and Write Multiple Registers Request Quantity to Write
+F93	[128,135]	uint	Read and Write Multiple Registers Request Write Byte Count
+F94	dynamic	binary	Read and Write Multiple Registers Request Write Register Values
+F95	[64,71]	uint	Read and Write Multiple Registers Response Byte Count
+F96	dynamic	binary	Read and Write Multiple Registers Response Read Register Values
+F97	[64,71]	uint	Read and Write Multiple Registers Error Response Exception Code
+F98	[64,79]	uint	Read First In First Out Queue Request First In First Out Pointer Address
+F99	[64,79]	uint	Read First In First Out Queue Response Byte Count (Two Bytes)
+F100	[80,95]	uint	Read First In First Out Queue Response First In First Out Count
+F101	dynamic	binary	Read First In First Out Queue Response First In First Out Value Registers
+F102	[64,71]	uint	Read First In First Out Queue Error Response Exception Code
+F103	[64,71]	uint	Read Device Identification Request Modbus Encapsulated Interface Type
+F104	[72,79]	uint	Read Device Identification Request Read Device Identification Code
+F105	[80,87]	uint	Read Device Identification Request Object Identifier
+F106	[64,71]	uint	Read Device Identification Response Modbus Encapsulated Interface Type
+F107	[72,79]	uint	Read Device Identification Response Read Device Identification Code
+F108	[80,87]	uint	Read Device Identification Response Conformity Level
+F109	[88,95]	uint	Read Device Identification Response More Follows
+F110	[96,103]	uint	Read Device Identification Response Next Object Identifier
+F111	[104,111]	uint	Read Device Identification Response Number of Objects
+F112	dynamic	binary	Read Device Identification Response List of Objects
+F113	[64,71]	uint	Read Device Identification Error Response Exception Code

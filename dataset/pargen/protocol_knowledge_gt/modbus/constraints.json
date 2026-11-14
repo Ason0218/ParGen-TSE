@@ -1,0 +1,132 @@
+[
+  {
+    "id": "C1",
+    "description": "ProtocolID = 0x0000",
+    "expected": true
+  },
+  {
+    "id": "C2",
+    "description": "Length = 1 + PDU_len",
+    "expected": true
+  },
+  {
+    "id": "C3",
+    "description": "1 ≤ PDU_len ≤ 253",
+    "expected": true
+  },
+  {
+    "id": "C4",
+    "description": "ADU_len = 6 + Length",
+    "expected": true
+  },
+  {
+    "id": "C5",
+    "description": "HasByteCount => ByteCount = len(DataBytes)",
+    "expected": true
+  },
+  {
+    "id": "C6",
+    "description": "FC ∈ [1,255]",
+    "expected": true
+  },
+  {
+    "id": "C7",
+    "description": "FC ≥ 128 ⇒ PDU_len = 2",
+    "expected": true
+  },
+  {
+    "id": "C8",
+    "description": "FC ≥ 128 ⇒ ExcCode in standard set",
+    "expected": true
+  },
+  {
+    "id": "C9",
+    "description": "FC ∈ {0x01,0x02} read-bits req/resp formats",
+    "expected": true
+  },
+  {
+    "id": "C10",
+    "description": "FC ∈ {0x03,0x04} read-registers req/resp formats",
+    "expected": true
+  },
+  {
+    "id": "C11",
+    "description": "Read request overflow: StartingAddress+Qty ≤ 0x10000",
+    "expected": true
+  },
+  {
+    "id": "C12",
+    "description": "FC=0x05 write single coil: Value ∈ {0x0000,0xFF00}",
+    "expected": true
+  },
+  {
+    "id": "C13",
+    "description": "FC=0x06 write single register: PDU_len=5",
+    "expected": true
+  },
+  {
+    "id": "C14",
+    "description": "FC=0x0F write multiple coils req/resp",
+    "expected": true
+  },
+  {
+    "id": "C15",
+    "description": "FC=0x0F request overflow check",
+    "expected": true
+  },
+  {
+    "id": "C16",
+    "description": "FC=0x10 write multiple registers req/resp",
+    "expected": true
+  },
+  {
+    "id": "C17",
+    "description": "FC=0x10 request overflow check",
+    "expected": true
+  },
+  {
+    "id": "C18",
+    "description": "FC=0x07 => PDU_len=2",
+    "expected": true
+  },
+  {
+    "id": "C19",
+    "description": "FC=0x08 => PDU_len=5",
+    "expected": true
+  },
+  {
+    "id": "C20",
+    "description": "FC=0x08 => SubFunc allowed set",
+    "expected": true
+  },
+  {
+    "id": "C21",
+    "description": "FC=0x0B => PDU_len ∈ {1,5}",
+    "expected": true
+  },
+  {
+    "id": "C22",
+    "description": "FC=0x0C => response ByteCount in [6,250]",
+    "expected": true
+  },
+  {
+    "id": "C23",
+    "description": "FC=0x11 => response ByteCount in [1,250]",
+    "expected": true
+  },
+  {
+    "id": "C24",
+    "description": "FC=0x16 => PDU_len=7",
+    "expected": true
+  },
+  {
+    "id": "C25",
+    "description": "FC=0x17 read/write multiple registers",
+    "expected": true
+  },
+  {
+    "id": "C26",
+    "description": "FC=0x17 request overflow checks",
+    "expected": true
+  }
+]

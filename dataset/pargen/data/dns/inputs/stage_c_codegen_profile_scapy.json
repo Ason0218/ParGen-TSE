@@ -1,0 +1,8 @@
+{
+  "profile_name": "dns_scapy_registration",
+  "target_protocol": "dns",
+  "host": "scapy",
+  "extraction": {
+    "pcap_layer": "transport_payload"
+  }
+}

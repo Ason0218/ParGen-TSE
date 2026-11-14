@@ -1,0 +1,82 @@
+[
+  {
+    "id": "C1",
+    "description": "Vers = 1",
+    "expected": true
+  },
+  {
+    "id": "C2",
+    "description": "M = 0 (Multipoint must be zero)",
+    "expected": true
+  },
+  {
+    "id": "C3",
+    "description": "DetectMult ≥ 1",
+    "expected": true
+  },
+  {
+    "id": "C4",
+    "description": "MyDiscr ≠ 0",
+    "expected": true
+  },
+  {
+    "id": "C5",
+    "description": "Length ≤ EncapsPayloadLen",
+    "expected": true
+  },
+  {
+    "id": "C6",
+    "description": "DesiredMinTx ≠ 0",
+    "expected": true
+  },
+  {
+    "id": "C7",
+    "description": "YourDiscr = 0 ⇒ Sta ∈ {0,1}",
+    "expected": true
+  },
+  {
+    "id": "C8",
+    "description": "A = 0 ⇒ Length ≥ 24",
+    "expected": true
+  },
+  {
+    "id": "C9",
+    "description": "A = 1 ⇒ AuthType ∈ {1,2,3,4,5}",
+    "expected": true
+  },
+  {
+    "id": "C10",
+    "description": "A = 1 ⇒ AuthLen ≥ 2",
+    "expected": true
+  },
+  {
+    "id": "C11",
+    "description": "A = 1 ⇒ Length = 24 + AuthLen",
+    "expected": true
+  },
+  {
+    "id": "C12",
+    "description": "A=1 ∧ AuthType=1 ⇒ 4 ≤ AuthLen ≤ 19",
+    "expected": true
+  },
+  {
+    "id": "C13",
+    "description": "A=1 ∧ AuthType=1 ⇒ pwd_len = AuthLen − 3 (1..16)",
+    "expected": true
+  },
+  {
+    "id": "C14",
+    "description": "A=1 ∧ AuthType∈{2,3} ⇒ AuthLen = 24",
+    "expected": true
+  },
+  {
+    "id": "C15",
+    "description": "A=1 ∧ AuthType∈{4,5} ⇒ AuthLen = 28",
+    "expected": true
+  },
+  {
+    "id": "C16",
+    "description": "¬(P ∧ F)",
+    "expected": true
+  }
+]

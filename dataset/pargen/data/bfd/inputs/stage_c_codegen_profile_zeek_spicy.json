@@ -1,0 +1,14 @@
+{
+  "profile_name": "bfd_zeek_spicy_registration",
+  "target_protocol": "bfd",
+  "host": "zeek_spicy",
+  "zeek_spicy": {
+    "registration": {
+      "transport": "udp",
+      "port": 3784,
+      "analyzer_name": "BFD",
+      "module_name": "BFD",
+      "root_unit": "ControlPacket"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "profile_name": "dns_wireshark_c_registration",
+  "target_protocol": "dns",
+  "host": "wireshark_c",
+  "wireshark_c": {
+    "registration": {
+      "dissector_table": "udp.port",
+      "port": 53,
+      "proto_abbrev": "dns_bs",
+      "filter_name": "dns_bs",
+      "long_name": "DNS (ParGen C)",
+      "short_name": "DNS (ParGen C)",
+      "disable_builtin_protocol": false,
+      "runtime_disable_protocols": [
+        "dns"
+      ]
+    }
+  },
+  "extraction": {
+    "pcap_layer": "transport_payload"
+  }
+}

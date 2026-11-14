@@ -1,0 +1,92 @@
+[
+  {
+    "id": "C1",
+    "description": "HL = 4 * DOffset (header length in bytes)",
+    "expected": true
+  },
+  {
+    "id": "C2",
+    "description": "5 ≤ DOffset ≤ 15",
+    "expected": true
+  },
+  {
+    "id": "C3",
+    "description": "20 ≤ HL ≤ 60",
+    "expected": true
+  },
+  {
+    "id": "C4",
+    "description": "OL = HL - 20 (options+padding length)",
+    "expected": true
+  },
+  {
+    "id": "C5",
+    "description": "0 ≤ OL ≤ 40 and (OL mod 4)=0",
+    "expected": true
+  },
+  {
+    "id": "C6",
+    "description": "Reserved = 0",
+    "expected": true
+  },
+  {
+    "id": "C7",
+    "description": "Kind in {0,1} => len=1",
+    "expected": true
+  },
+  {
+    "id": "C8",
+    "description": "Kind not in {0,1} => Length byte exists and >=2",
+    "expected": true
+  },
+  {
+    "id": "C9",
+    "description": "Kind=2 (MSS) => len=4",
+    "expected": true
+  },
+  {
+    "id": "C10",
+    "description": "Kind=3 (WS) => len=3",
+    "expected": true
+  },
+  {
+    "id": "C11",
+    "description": "Kind=4 (SACK Permitted) => len=2",
+    "expected": true
+  },
+  {
+    "id": "C12",
+    "description": "Kind=8 (Timestamp) => len=10",
+    "expected": true
+  },
+  {
+    "id": "C13",
+    "description": "Σ len_i ≤ OL",
+    "expected": true
+  },
+  {
+    "id": "C14",
+    "description": "For non-{0,1}, data_len = len - 2",
+    "expected": true
+  },
+  {
+    "id": "C15",
+    "description": "After EOL, remaining option bytes are zero padding",
+    "expected": true
+  },
+  {
+    "id": "C16",
+    "description": "URG = 1 ⇒ urgent_end = (SEQ + UP) mod 2^32",
+    "expected": true
+  },
+  {
+    "id": "C17",
+    "description": "VerifyTCPChecksum(PseudoHdr, TCPHdr, Data) = true",
+    "expected": true
+  },
+  {
+    "id": "C18",
+    "description": "(∃i: kind_i = 4) ⇒ (SYN = 1)",
+    "expected": true
+  }
+]

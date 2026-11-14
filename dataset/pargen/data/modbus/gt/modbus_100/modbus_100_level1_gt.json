@@ -1,0 +1,4779 @@
+{
+  "pcap": "modbus_100.pcap",
+  "gt_level": 1,
+  "description": "Modbus/TCP GT (Level1): field boundaries + raw bytes.",
+  "packets": [
+    {
+      "frame_no": 1,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "57de"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0008"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "0f"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0005"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0001"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 12,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Coil Data",
+          "offset": 13,
+          "length": 1,
+          "raw": "00"
+        }
+      ]
+    },
+    {
+      "frame_no": 2,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6d06"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0008"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "0f"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0005"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0001"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 12,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Coil Data",
+          "offset": 13,
+          "length": 1,
+          "raw": "00"
+        }
+      ]
+    },
+    {
+      "frame_no": 3,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6d06"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "0f"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0005"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0001"
+        }
+      ]
+    },
+    {
+      "frame_no": 4,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "608d"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "0f"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0005"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0001"
+        }
+      ]
+    },
+    {
+      "frame_no": 5,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "317b"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "0f"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0001"
+        }
+      ]
+    },
+    {
+      "frame_no": 6,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "317c"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0009"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "0f"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0009"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "000a"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 12,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Coil Data",
+          "offset": 13,
+          "length": 2,
+          "raw": "ff03"
+        }
+      ]
+    },
+    {
+      "frame_no": 7,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "57de"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "0f"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0005"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0001"
+        }
+      ]
+    },
+    {
+      "frame_no": 8,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "308a"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0009"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "0f"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0009"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "000a"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 12,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Coil Data",
+          "offset": 13,
+          "length": 2,
+          "raw": "ff03"
+        }
+      ]
+    },
+    {
+      "frame_no": 9,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "636f"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0008"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "0f"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0005"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0001"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 12,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Coil Data",
+          "offset": 13,
+          "length": 1,
+          "raw": "00"
+        }
+      ]
+    },
+    {
+      "frame_no": 10,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "636f"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "0f"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0005"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0001"
+        }
+      ]
+    },
+    {
+      "frame_no": 11,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "308a"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "0f"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0009"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "000a"
+        }
+      ]
+    },
+    {
+      "frame_no": 12,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "308b"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0008"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "0f"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0008"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0001"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 12,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Coil Data",
+          "offset": 13,
+          "length": 1,
+          "raw": "01"
+        }
+      ]
+    },
+    {
+      "frame_no": 13,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "3206"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0006"
+        }
+      ]
+    },
+    {
+      "frame_no": 14,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "3206"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0004"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Coil Status",
+          "offset": 9,
+          "length": 1,
+          "raw": "00"
+        }
+      ]
+    },
+    {
+      "frame_no": 15,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "317c"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "0f"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0009"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "000a"
+        }
+      ]
+    },
+    {
+      "frame_no": 16,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "3207"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0006"
+        }
+      ]
+    },
+    {
+      "frame_no": 17,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "3207"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0004"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Coil Status",
+          "offset": 9,
+          "length": 1,
+          "raw": "00"
+        }
+      ]
+    },
+    {
+      "frame_no": 18,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "3208"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Inputs",
+          "offset": 10,
+          "length": 2,
+          "raw": "000a"
+        }
+      ]
+    },
+    {
+      "frame_no": 19,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "3208"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0005"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Input Status",
+          "offset": 9,
+          "length": 2,
+          "raw": "0300"
+        }
+      ]
+    },
+    {
+      "frame_no": 20,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "317f"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0013"
+        }
+      ]
+    },
+    {
+      "frame_no": 21,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "308d"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0013"
+        }
+      ]
+    },
+    {
+      "frame_no": 22,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "308b"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "0f"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0008"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0001"
+        }
+      ]
+    },
+    {
+      "frame_no": 23,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "308e"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Inputs",
+          "offset": 10,
+          "length": 2,
+          "raw": "000c"
+        }
+      ]
+    },
+    {
+      "frame_no": 24,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "317f"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "03"
+        },
+        {
+          "name": "Coil Status",
+          "offset": 9,
+          "length": 3,
+          "raw": "00ff07"
+        }
+      ]
+    },
+    {
+      "frame_no": 25,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "3180"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Inputs",
+          "offset": 10,
+          "length": 2,
+          "raw": "000c"
+        }
+      ]
+    },
+    {
+      "frame_no": 26,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "1d3a"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0007"
+        }
+      ]
+    },
+    {
+      "frame_no": 27,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "1d3a"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0004"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Coil Status",
+          "offset": 9,
+          "length": 1,
+          "raw": "00"
+        }
+      ]
+    },
+    {
+      "frame_no": 28,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "1d3b"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Inputs",
+          "offset": 10,
+          "length": 2,
+          "raw": "000a"
+        }
+      ]
+    },
+    {
+      "frame_no": 29,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "1d3b"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0005"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Input Status",
+          "offset": 9,
+          "length": 2,
+          "raw": "0300"
+        }
+      ]
+    },
+    {
+      "frame_no": 30,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "308e"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0005"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Input Status",
+          "offset": 9,
+          "length": 2,
+          "raw": "0100"
+        }
+      ]
+    },
+    {
+      "frame_no": 31,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "608e"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "018f"
+        },
+        {
+          "name": "Quantity of Registers",
+          "offset": 10,
+          "length": 2,
+          "raw": "0002"
+        }
+      ]
+    },
+    {
+      "frame_no": 32,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "0b80"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0007"
+        }
+      ]
+    },
+    {
+      "frame_no": 33,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "0b80"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0004"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Coil Status",
+          "offset": 9,
+          "length": 1,
+          "raw": "00"
+        }
+      ]
+    },
+    {
+      "frame_no": 34,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "0b81"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Inputs",
+          "offset": 10,
+          "length": 2,
+          "raw": "000a"
+        }
+      ]
+    },
+    {
+      "frame_no": 35,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "0b81"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0005"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Input Status",
+          "offset": 9,
+          "length": 2,
+          "raw": "0200"
+        }
+      ]
+    },
+    {
+      "frame_no": 36,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "3180"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0005"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Input Status",
+          "offset": 9,
+          "length": 2,
+          "raw": "0200"
+        }
+      ]
+    },
+    {
+      "frame_no": 37,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "608e"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0007"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Register Values",
+          "offset": 9,
+          "length": 4,
+          "raw": "b600477f"
+        }
+      ]
+    },
+    {
+      "frame_no": 38,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "608f"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0001"
+        },
+        {
+          "name": "Quantity of Registers",
+          "offset": 10,
+          "length": 2,
+          "raw": "0063"
+        }
+      ]
+    },
+    {
+      "frame_no": 39,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "5e11"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0007"
+        }
+      ]
+    },
+    {
+      "frame_no": 40,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "5e11"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0004"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Coil Status",
+          "offset": 9,
+          "length": 1,
+          "raw": "00"
+        }
+      ]
+    },
+    {
+      "frame_no": 41,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "5e12"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Inputs",
+          "offset": 10,
+          "length": 2,
+          "raw": "000a"
+        }
+      ]
+    },
+    {
+      "frame_no": 42,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "5e12"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0005"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Input Status",
+          "offset": 9,
+          "length": 2,
+          "raw": "0200"
+        }
+      ]
+    },
+    {
+      "frame_no": 43,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "25c9"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0006"
+        }
+      ]
+    },
+    {
+      "frame_no": 44,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "25c9"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0004"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Coil Status",
+          "offset": 9,
+          "length": 1,
+          "raw": "00"
+        }
+      ]
+    },
+    {
+      "frame_no": 45,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "25ca"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0006"
+        }
+      ]
+    },
+    {
+      "frame_no": 46,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "25ca"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0004"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Coil Status",
+          "offset": 9,
+          "length": 1,
+          "raw": "00"
+        }
+      ]
+    },
+    {
+      "frame_no": 47,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "25cb"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Inputs",
+          "offset": 10,
+          "length": 2,
+          "raw": "000a"
+        }
+      ]
+    },
+    {
+      "frame_no": 48,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "25cb"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0005"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Input Status",
+          "offset": 9,
+          "length": 2,
+          "raw": "0200"
+        }
+      ]
+    },
+    {
+      "frame_no": 49,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "608f"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "00c9"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "c6"
+        },
+        {
+          "name": "Register Values",
+          "offset": 9,
+          "length": 198,
+          "raw": "001e0000303030303630353231393636000000000001000030303030303030303030303038303839323700000000000000000000000000000002000000000000000000000000000000000000000100340004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000796f617300660000000000000000000000000000796f61730066000000000000000000000000000079006173006600000000000000000000000000000384"
+        }
+      ]
+    },
+    {
+      "frame_no": 50,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6093"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0063"
+        },
+        {
+          "name": "Quantity of Inputs",
+          "offset": 10,
+          "length": 2,
+          "raw": "001e"
+        }
+      ]
+    },
+    {
+      "frame_no": 51,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6093"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0007"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Input Status",
+          "offset": 9,
+          "length": 4,
+          "raw": "bd0f6739"
+        }
+      ]
+    },
+    {
+      "frame_no": 52,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "57df"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "018f"
+        },
+        {
+          "name": "Quantity of Registers",
+          "offset": 10,
+          "length": 2,
+          "raw": "0002"
+        }
+      ]
+    },
+    {
+      "frame_no": 53,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "57e0"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0001"
+        },
+        {
+          "name": "Quantity of Registers",
+          "offset": 10,
+          "length": 2,
+          "raw": "0063"
+        }
+      ]
+    },
+    {
+      "frame_no": 54,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "57df"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0007"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Register Values",
+          "offset": 9,
+          "length": 4,
+          "raw": "00000000"
+        }
+      ]
+    },
+    {
+      "frame_no": 55,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6d07"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0006"
+        }
+      ]
+    },
+    {
+      "frame_no": 56,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6d07"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0004"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Coil Status",
+          "offset": 9,
+          "length": 1,
+          "raw": "00"
+        }
+      ]
+    },
+    {
+      "frame_no": 57,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6d08"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0006"
+        }
+      ]
+    },
+    {
+      "frame_no": 58,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6d08"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0004"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Coil Status",
+          "offset": 9,
+          "length": 1,
+          "raw": "00"
+        }
+      ]
+    },
+    {
+      "frame_no": 59,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6d09"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0006"
+        }
+      ]
+    },
+    {
+      "frame_no": 60,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6d09"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0004"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Coil Status",
+          "offset": 9,
+          "length": 1,
+          "raw": "00"
+        }
+      ]
+    },
+    {
+      "frame_no": 61,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6d0a"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0006"
+        }
+      ]
+    },
+    {
+      "frame_no": 62,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6370"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "0006"
+        }
+      ]
+    },
+    {
+      "frame_no": 63,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6d0a"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0004"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Coil Status",
+          "offset": 9,
+          "length": 1,
+          "raw": "00"
+        }
+      ]
+    },
+    {
+      "frame_no": 64,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6d0b"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Inputs",
+          "offset": 10,
+          "length": 2,
+          "raw": "000a"
+        }
+      ]
+    },
+    {
+      "frame_no": 65,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6370"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0004"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Coil Status",
+          "offset": 9,
+          "length": 1,
+          "raw": "00"
+        }
+      ]
+    },
+    {
+      "frame_no": 66,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6371"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Inputs",
+          "offset": 10,
+          "length": 2,
+          "raw": "000a"
+        }
+      ]
+    },
+    {
+      "frame_no": 67,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6d0b"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0005"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Input Status",
+          "offset": 9,
+          "length": 2,
+          "raw": "0000"
+        }
+      ]
+    },
+    {
+      "frame_no": 68,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6371"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0005"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Input Status",
+          "offset": 9,
+          "length": 2,
+          "raw": "0300"
+        }
+      ]
+    },
+    {
+      "frame_no": 69,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "57e0"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "00c9"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "c6"
+        },
+        {
+          "name": "Register Values",
+          "offset": 9,
+          "length": 198,
+          "raw": "00000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000003000000000000000000000000000001dc000001d600004a60000000000000000000000000000000000000000000000000000000000000796f617300660000000000000000000000000000796f61730066000000000000000000000000000079006173006600000000000000000000000000000384"
+        }
+      ]
+    },
+    {
+      "frame_no": 70,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "25cc"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0030"
+        },
+        {
+          "name": "Quantity of Registers",
+          "offset": 10,
+          "length": 2,
+          "raw": "0028"
+        }
+      ]
+    },
+    {
+      "frame_no": 71,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "5e13"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0030"
+        },
+        {
+          "name": "Quantity of Registers",
+          "offset": 10,
+          "length": 2,
+          "raw": "0028"
+        }
+      ]
+    },
+    {
+      "frame_no": 72,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "3209"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0030"
+        },
+        {
+          "name": "Quantity of Registers",
+          "offset": 10,
+          "length": 2,
+          "raw": "0028"
+        }
+      ]
+    },
+    {
+      "frame_no": 73,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6d0c"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0030"
+        },
+        {
+          "name": "Quantity of Registers",
+          "offset": 10,
+          "length": 2,
+          "raw": "0028"
+        }
+      ]
+    },
+    {
+      "frame_no": 74,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "25cc"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0053"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "50"
+        },
+        {
+          "name": "Register Values",
+          "offset": 9,
+          "length": 80,
+          "raw": "3030303030303030303030303033363037320000000000000000000000000000303030303036323536333539000000000000000000000000000000000000000000ec0000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "frame_no": 75,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6372"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0030"
+        },
+        {
+          "name": "Quantity of Registers",
+          "offset": 10,
+          "length": 2,
+          "raw": "0028"
+        }
+      ]
+    },
+    {
+      "frame_no": 76,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "25cd"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "044c"
+        },
+        {
+          "name": "Quantity of Registers",
+          "offset": 10,
+          "length": 2,
+          "raw": "0073"
+        }
+      ]
+    },
+    {
+      "frame_no": 77,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "5e13"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0053"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "50"
+        },
+        {
+          "name": "Register Values",
+          "offset": 9,
+          "length": 80,
+          "raw": "30303030303030303030303030333630373200000000000000000000000000003030303030363235363832330000000000000000000000000000000000000000119e0000000900000000000000000000"
+        }
+      ]
+    },
+    {
+      "frame_no": 78,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "3209"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0053"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "50"
+        },
+        {
+          "name": "Register Values",
+          "offset": 9,
+          "length": 80,
+          "raw": "3030303030303030303030303038393836300000000000000000000000000000543939393939393939383838000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "frame_no": 79,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6d0c"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0053"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "50"
+        },
+        {
+          "name": "Register Values",
+          "offset": 9,
+          "length": 80,
+          "raw": "3030303030303030303030303038393932360000000000000000000000000000303030303036323438353235000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "frame_no": 80,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "5e14"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "044c"
+        },
+        {
+          "name": "Quantity of Registers",
+          "offset": 10,
+          "length": 2,
+          "raw": "0073"
+        }
+      ]
+    },
+    {
+      "frame_no": 81,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "320a"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "044c"
+        },
+        {
+          "name": "Quantity of Registers",
+          "offset": 10,
+          "length": 2,
+          "raw": "0073"
+        }
+      ]
+    },
+    {
+      "frame_no": 82,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6d0d"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "044c"
+        },
+        {
+          "name": "Quantity of Registers",
+          "offset": 10,
+          "length": 2,
+          "raw": "0073"
+        }
+      ]
+    },
+    {
+      "frame_no": 83,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6372"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0053"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "50"
+        },
+        {
+          "name": "Register Values",
+          "offset": 9,
+          "length": 80,
+          "raw": "3030303030303030303030303038393932360000000000000000000000000000303030303036323534323637000000000000000000000000000000000000000000590000000600000000000000000000"
+        }
+      ]
+    },
+    {
+      "frame_no": 84,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6373"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "044c"
+        },
+        {
+          "name": "Quantity of Registers",
+          "offset": 10,
+          "length": 2,
+          "raw": "0073"
+        }
+      ]
+    },
+    {
+      "frame_no": 85,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6d0d"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "00e9"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "e6"
+        },
+        {
+          "name": "Register Values",
+          "offset": 9,
+          "length": 230,
+          "raw": "0000000200000006271000000000000000000000003c000c003c000c01f4001e000401fb00050000000500e9000800000000006e000d00bf00070024003f00150005001e008c0028000a000600060006000700050000000000000000000000000000000000320000000f012c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006d686967672073696c766961202020202020202020204e6f6e6520200000"
+        }
+      ]
+    },
+    {
+      "frame_no": 86,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "25cd"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "00e9"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "e6"
+        },
+        {
+          "name": "Register Values",
+          "offset": 9,
+          "length": 230,
+          "raw": "0032000300000004000000000000000000000000003c000b003c000b0258001e000401fe006e0000000500e40008000000000073000f00950005000f001000150083002a001c00280017002500060009000a000a00000000000000000000000000000000003700000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006b73747279206b7369657a6e69637a6b6130392020206b73747279200384"
+        }
+      ]
+    },
+    {
+      "frame_no": 87,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "320a"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "00e9"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "e6"
+        },
+        {
+          "name": "Register Values",
+          "offset": 9,
+          "length": 230,
+          "raw": "001e000100000002271100000000000000000000003c000e003c000e05140032000401fb00050000000500ef0008000000000069000b009a0009000a00950015000c001e00380028000e0016001e00080008000b000000000000000000000000000c000f00380000000f02580000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004e6f6e6520200000"
+        }
+      ]
+    },
+    {
+      "frame_no": 88,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "5e14"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "00e9"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "e6"
+        },
+        {
+          "name": "Register Values",
+          "offset": 9,
+          "length": 230,
+          "raw": "00320003000000040000000000000000000000000046000a0046000a02ee001e000401ee005d0000000500dc0008000000000073000f00aa0007001100450014003d002300150028000f00070009000b000f000a0000000000000000000000000000000000390000000d0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000069636f6c6c2069636f6c6c20202020202020202020204e6f6e6520200000"
+        }
+      ]
+    },
+    {
+      "frame_no": 89,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6373"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "00e9"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "e6"
+        },
+        {
+          "name": "Register Values",
+          "offset": 9,
+          "length": 230,
+          "raw": "0032000200000005271200000000000000000000003c000b003c000b02ee001e000401fb00050000000500e70008000000000078001100a30007000e003f00150068001e00910028000e00230006000b0007000800000000000000000000000000000000003d0000000f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005245445741207279616e3120202020202020202020204e6f6e6520200000"
+        }
+      ]
+    },
+    {
+      "frame_no": 90,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6094"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "000a"
+        }
+      ]
+    },
+    {
+      "frame_no": 91,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6094"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0005"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Coil Status",
+          "offset": 9,
+          "length": 2,
+          "raw": "0100"
+        }
+      ]
+    },
+    {
+      "frame_no": 92,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6095"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Inputs",
+          "offset": 10,
+          "length": 2,
+          "raw": "000b"
+        }
+      ]
+    },
+    {
+      "frame_no": 93,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "1f1c"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "018f"
+        },
+        {
+          "name": "Quantity of Registers",
+          "offset": 10,
+          "length": 2,
+          "raw": "0002"
+        }
+      ]
+    },
+    {
+      "frame_no": 94,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "1f1d"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0001"
+        },
+        {
+          "name": "Quantity of Registers",
+          "offset": 10,
+          "length": 2,
+          "raw": "0063"
+        }
+      ]
+    },
+    {
+      "frame_no": 95,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "1f1c"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0007"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Register Values",
+          "offset": 9,
+          "length": 4,
+          "raw": "f0004623"
+        }
+      ]
+    },
+    {
+      "frame_no": 96,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "6095"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0005"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "02"
+        },
+        {
+          "name": "Input Status",
+          "offset": 9,
+          "length": 2,
+          "raw": "0200"
+        }
+      ]
+    },
+    {
+      "frame_no": 97,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "1f20"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "08d2"
+        },
+        {
+          "name": "Quantity of Registers",
+          "offset": 10,
+          "length": 2,
+          "raw": "0002"
+        }
+      ]
+    },
+    {
+      "frame_no": 98,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "1f1d"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "00c9"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "04"
+        },
+        {
+          "name": "Byte Count",
+          "offset": 8,
+          "length": 1,
+          "raw": "c6"
+        },
+        {
+          "name": "Register Values",
+          "offset": 9,
+          "length": 198,
+          "raw": "00320000303030303630353233363935000000000001000030303030303030303030303033303036323700000000000000000000000000000005000000000000000000000000000000000000000100000004000000000000000000000000000000020000000600000050000000010000002800000000000000000000000000000000000000000000706f617000630000000000000000000000000000706f61700063000000000000000000000000000070006170006300000000000000000000000000000014"
+        }
+      ]
+    },
+    {
+      "frame_no": 99,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "57e5"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "000a"
+        }
+      ]
+    },
+    {
+      "frame_no": 100,
+      "fields": [
+        {
+          "name": "Transaction Identifier",
+          "offset": 0,
+          "length": 2,
+          "raw": "450a"
+        },
+        {
+          "name": "Protocol Identifier",
+          "offset": 2,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Length",
+          "offset": 4,
+          "length": 2,
+          "raw": "0006"
+        },
+        {
+          "name": "Unit Identifier",
+          "offset": 6,
+          "length": 1,
+          "raw": "ff"
+        },
+        {
+          "name": "Function Code",
+          "offset": 7,
+          "length": 1,
+          "raw": "01"
+        },
+        {
+          "name": "Starting Address",
+          "offset": 8,
+          "length": 2,
+          "raw": "0000"
+        },
+        {
+          "name": "Quantity of Coils",
+          "offset": 10,
+          "length": 2,
+          "raw": "000a"
+        }
+      ]
+    }
+  ]
+}

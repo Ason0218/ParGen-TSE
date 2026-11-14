@@ -1,0 +1,19 @@
+{
+  "profile_name": "tcp_zeek_spicy_registration",
+  "target_protocol": "tcp",
+  "host": "zeek_spicy",
+  "zeek_spicy": {
+    "registration": {
+      "transport": "auto",
+      "ports": [],
+      "zeek_analyzer_name": "spicy::TCPHeaderBS",
+      "zeek_event_prefix": "TCPBS"
+    },
+    "module_name": "TCPBS",
+    "root_unit": "Segment"
+  },
+  "extraction": {
+    "pcap_layer": "tcp_header",
+    "ip_proto": 6
+  }
+}

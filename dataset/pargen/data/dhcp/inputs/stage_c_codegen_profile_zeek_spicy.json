@@ -1,0 +1,14 @@
+{
+  "profile_name": "dhcp_zeek_spicy_registration",
+  "target_protocol": "dhcp",
+  "host": "zeek_spicy",
+  "zeek_spicy": {
+    "registration": {
+      "transport": "udp",
+      "port": 67,
+      "analyzer_name": "DHCP",
+      "module_name": "DHCP",
+      "root_unit": "Message"
+    }
+  }
+}

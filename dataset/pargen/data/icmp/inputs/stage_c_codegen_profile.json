@@ -1,0 +1,16 @@
+{
+  "profile_name": "icmp_wireshark_c_registration",
+  "target_protocol": "icmp",
+  "host": "wireshark_c",
+  "wireshark_c": {
+    "registration": {
+      "dissector_table": "ip.proto",
+      "selector_type": "ip_proto",
+      "selector": 1,
+      "proto_abbrev": "icmp_bs",
+      "filter_name": "icmp_bs",
+      "long_name": "ICMPv4 (ParGen)",
+      "short_name": "ICMP (ParGen)"
+    }
+  }
+}

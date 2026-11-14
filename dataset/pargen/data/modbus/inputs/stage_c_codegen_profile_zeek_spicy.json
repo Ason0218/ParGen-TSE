@@ -1,0 +1,14 @@
+{
+  "profile_name": "modbus_zeek_spicy_registration",
+  "target_protocol": "modbus",
+  "host": "zeek_spicy",
+  "zeek_spicy": {
+    "registration": {
+      "transport": "tcp",
+      "port": 502,
+      "analyzer_name": "Modbus",
+      "module_name": "Modbus",
+      "root_unit": "Message"
+    }
+  }
+}

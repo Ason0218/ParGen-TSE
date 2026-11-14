@@ -1,0 +1,7015 @@
+{
+  "pcap": "modbus_100.pcap",
+  "gt_level": 2,
+  "description": "Modbus/TCP GT (Level2): field names + values.",
+  "packets": [
+    {
+      "frame_no": 1,
+      "function_code": 15,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "57de",
+          "value": 22494,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0008",
+          "value": 8,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "0f",
+          "value": 15,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0005",
+          "value": 5,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0001",
+          "value": 1,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "01",
+          "value": 1,
+          "offset": 12,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Coil Data",
+          "raw": "00",
+          "value": 0,
+          "offset": 13,
+          "size": 1,
+          "length": 1
+        }
+      ]
+    },
+    {
+      "frame_no": 2,
+      "function_code": 15,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6d06",
+          "value": 27910,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0008",
+          "value": 8,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "0f",
+          "value": 15,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0005",
+          "value": 5,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0001",
+          "value": 1,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "01",
+          "value": 1,
+          "offset": 12,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Coil Data",
+          "raw": "00",
+          "value": 0,
+          "offset": 13,
+          "size": 1,
+          "length": 1
+        }
+      ]
+    },
+    {
+      "frame_no": 3,
+      "function_code": 15,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6d06",
+          "value": 27910,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "0f",
+          "value": 15,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0005",
+          "value": 5,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0001",
+          "value": 1,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 4,
+      "function_code": 15,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "608d",
+          "value": 24717,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "0f",
+          "value": 15,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0005",
+          "value": 5,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0001",
+          "value": 1,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 5,
+      "function_code": 15,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "317b",
+          "value": 12667,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "0f",
+          "value": 15,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0001",
+          "value": 1,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 6,
+      "function_code": 15,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "317c",
+          "value": 12668,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0009",
+          "value": 9,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "0f",
+          "value": 15,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0009",
+          "value": 9,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "000a",
+          "value": 10,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "02",
+          "value": 2,
+          "offset": 12,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Coil Data",
+          "raw": "ff03",
+          "value": 65283,
+          "offset": 13,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 7,
+      "function_code": 15,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "57de",
+          "value": 22494,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "0f",
+          "value": 15,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0005",
+          "value": 5,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0001",
+          "value": 1,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 8,
+      "function_code": 15,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "308a",
+          "value": 12426,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0009",
+          "value": 9,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "0f",
+          "value": 15,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0009",
+          "value": 9,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "000a",
+          "value": 10,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "02",
+          "value": 2,
+          "offset": 12,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Coil Data",
+          "raw": "ff03",
+          "value": 65283,
+          "offset": 13,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 9,
+      "function_code": 15,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "636f",
+          "value": 25455,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0008",
+          "value": 8,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "0f",
+          "value": 15,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0005",
+          "value": 5,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0001",
+          "value": 1,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "01",
+          "value": 1,
+          "offset": 12,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Coil Data",
+          "raw": "00",
+          "value": 0,
+          "offset": 13,
+          "size": 1,
+          "length": 1
+        }
+      ]
+    },
+    {
+      "frame_no": 10,
+      "function_code": 15,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "636f",
+          "value": 25455,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "0f",
+          "value": 15,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0005",
+          "value": 5,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0001",
+          "value": 1,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 11,
+      "function_code": 15,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "308a",
+          "value": 12426,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "0f",
+          "value": 15,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0009",
+          "value": 9,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "000a",
+          "value": 10,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 12,
+      "function_code": 15,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "308b",
+          "value": 12427,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0008",
+          "value": 8,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "0f",
+          "value": 15,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0008",
+          "value": 8,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0001",
+          "value": 1,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "01",
+          "value": 1,
+          "offset": 12,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Coil Data",
+          "raw": "01",
+          "value": 1,
+          "offset": 13,
+          "size": 1,
+          "length": 1
+        }
+      ]
+    },
+    {
+      "frame_no": 13,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "3206",
+          "value": 12806,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0006",
+          "value": 6,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 14,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "3206",
+          "value": 12806,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0004",
+          "value": 4,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "01",
+          "value": 1,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Coil Status",
+          "raw": "00",
+          "value": 0,
+          "offset": 9,
+          "size": 1,
+          "length": 1
+        }
+      ]
+    },
+    {
+      "frame_no": 15,
+      "function_code": 15,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "317c",
+          "value": 12668,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "0f",
+          "value": 15,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0009",
+          "value": 9,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "000a",
+          "value": 10,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 16,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "3207",
+          "value": 12807,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0006",
+          "value": 6,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 17,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "3207",
+          "value": 12807,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0004",
+          "value": 4,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "01",
+          "value": 1,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Coil Status",
+          "raw": "00",
+          "value": 0,
+          "offset": 9,
+          "size": 1,
+          "length": 1
+        }
+      ]
+    },
+    {
+      "frame_no": 18,
+      "function_code": 2,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "3208",
+          "value": 12808,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "02",
+          "value": 2,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Inputs",
+          "raw": "000a",
+          "value": 10,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 19,
+      "function_code": 2,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "3208",
+          "value": 12808,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0005",
+          "value": 5,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "02",
+          "value": 2,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "02",
+          "value": 2,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Input Status",
+          "raw": "0300",
+          "value": 768,
+          "offset": 9,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 20,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "317f",
+          "value": 12671,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0013",
+          "value": 19,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 21,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "308d",
+          "value": 12429,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0013",
+          "value": 19,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 22,
+      "function_code": 15,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "308b",
+          "value": 12427,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "0f",
+          "value": 15,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0008",
+          "value": 8,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0001",
+          "value": 1,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 23,
+      "function_code": 2,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "308e",
+          "value": 12430,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "02",
+          "value": 2,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Inputs",
+          "raw": "000c",
+          "value": 12,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 24,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "317f",
+          "value": 12671,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "03",
+          "value": 3,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Coil Status",
+          "raw": "00ff07",
+          "value": "00ff07",
+          "offset": 9,
+          "size": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "frame_no": 25,
+      "function_code": 2,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "3180",
+          "value": 12672,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "02",
+          "value": 2,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Inputs",
+          "raw": "000c",
+          "value": 12,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 26,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "1d3a",
+          "value": 7482,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0007",
+          "value": 7,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 27,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "1d3a",
+          "value": 7482,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0004",
+          "value": 4,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "01",
+          "value": 1,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Coil Status",
+          "raw": "00",
+          "value": 0,
+          "offset": 9,
+          "size": 1,
+          "length": 1
+        }
+      ]
+    },
+    {
+      "frame_no": 28,
+      "function_code": 2,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "1d3b",
+          "value": 7483,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "02",
+          "value": 2,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Inputs",
+          "raw": "000a",
+          "value": 10,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 29,
+      "function_code": 2,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "1d3b",
+          "value": 7483,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0005",
+          "value": 5,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "02",
+          "value": 2,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "02",
+          "value": 2,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Input Status",
+          "raw": "0300",
+          "value": 768,
+          "offset": 9,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 30,
+      "function_code": 2,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "308e",
+          "value": 12430,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0005",
+          "value": 5,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "02",
+          "value": 2,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "02",
+          "value": 2,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Input Status",
+          "raw": "0100",
+          "value": 256,
+          "offset": 9,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 31,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "608e",
+          "value": 24718,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "018f",
+          "value": 399,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Registers",
+          "raw": "0002",
+          "value": 2,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 32,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "0b80",
+          "value": 2944,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0007",
+          "value": 7,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 33,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "0b80",
+          "value": 2944,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0004",
+          "value": 4,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "01",
+          "value": 1,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Coil Status",
+          "raw": "00",
+          "value": 0,
+          "offset": 9,
+          "size": 1,
+          "length": 1
+        }
+      ]
+    },
+    {
+      "frame_no": 34,
+      "function_code": 2,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "0b81",
+          "value": 2945,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "02",
+          "value": 2,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Inputs",
+          "raw": "000a",
+          "value": 10,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 35,
+      "function_code": 2,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "0b81",
+          "value": 2945,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0005",
+          "value": 5,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "02",
+          "value": 2,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "02",
+          "value": 2,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Input Status",
+          "raw": "0200",
+          "value": 512,
+          "offset": 9,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 36,
+      "function_code": 2,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "3180",
+          "value": 12672,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0005",
+          "value": 5,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "02",
+          "value": 2,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "02",
+          "value": 2,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Input Status",
+          "raw": "0200",
+          "value": 512,
+          "offset": 9,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 37,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "608e",
+          "value": 24718,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0007",
+          "value": 7,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "04",
+          "value": 4,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Register Values",
+          "raw": "b600477f",
+          "value": "b600477f",
+          "offset": 9,
+          "size": 4,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "frame_no": 38,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "608f",
+          "value": 24719,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0001",
+          "value": 1,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Registers",
+          "raw": "0063",
+          "value": 99,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 39,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "5e11",
+          "value": 24081,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0007",
+          "value": 7,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 40,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "5e11",
+          "value": 24081,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0004",
+          "value": 4,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "01",
+          "value": 1,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Coil Status",
+          "raw": "00",
+          "value": 0,
+          "offset": 9,
+          "size": 1,
+          "length": 1
+        }
+      ]
+    },
+    {
+      "frame_no": 41,
+      "function_code": 2,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "5e12",
+          "value": 24082,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "02",
+          "value": 2,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Inputs",
+          "raw": "000a",
+          "value": 10,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 42,
+      "function_code": 2,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "5e12",
+          "value": 24082,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0005",
+          "value": 5,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "02",
+          "value": 2,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "02",
+          "value": 2,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Input Status",
+          "raw": "0200",
+          "value": 512,
+          "offset": 9,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 43,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "25c9",
+          "value": 9673,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0006",
+          "value": 6,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 44,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "25c9",
+          "value": 9673,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0004",
+          "value": 4,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "01",
+          "value": 1,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Coil Status",
+          "raw": "00",
+          "value": 0,
+          "offset": 9,
+          "size": 1,
+          "length": 1
+        }
+      ]
+    },
+    {
+      "frame_no": 45,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "25ca",
+          "value": 9674,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0006",
+          "value": 6,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 46,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "25ca",
+          "value": 9674,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0004",
+          "value": 4,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "01",
+          "value": 1,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Coil Status",
+          "raw": "00",
+          "value": 0,
+          "offset": 9,
+          "size": 1,
+          "length": 1
+        }
+      ]
+    },
+    {
+      "frame_no": 47,
+      "function_code": 2,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "25cb",
+          "value": 9675,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "02",
+          "value": 2,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Inputs",
+          "raw": "000a",
+          "value": 10,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 48,
+      "function_code": 2,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "25cb",
+          "value": 9675,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0005",
+          "value": 5,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "02",
+          "value": 2,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "02",
+          "value": 2,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Input Status",
+          "raw": "0200",
+          "value": 512,
+          "offset": 9,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 49,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "608f",
+          "value": 24719,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "00c9",
+          "value": 201,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "c6",
+          "value": 198,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Register Values",
+          "raw": "001e0000303030303630353231393636000000000001000030303030303030303030303038303839323700000000000000000000000000000002000000000000000000000000000000000000000100340004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000796f617300660000000000000000000000000000796f61730066000000000000000000000000000079006173006600000000000000000000000000000384",
+          "value": "001e0000303030303630353231393636000000000001000030303030303030303030303038303839323700000000000000000000000000000002000000000000000000000000000000000000000100340004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000796f617300660000000000000000000000000000796f61730066000000000000000000000000000079006173006600000000000000000000000000000384",
+          "offset": 9,
+          "size": 198,
+          "length": 198
+        }
+      ]
+    },
+    {
+      "frame_no": 50,
+      "function_code": 2,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6093",
+          "value": 24723,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "02",
+          "value": 2,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0063",
+          "value": 99,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Inputs",
+          "raw": "001e",
+          "value": 30,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 51,
+      "function_code": 2,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6093",
+          "value": 24723,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0007",
+          "value": 7,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "02",
+          "value": 2,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "04",
+          "value": 4,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Input Status",
+          "raw": "bd0f6739",
+          "value": "bd0f6739",
+          "offset": 9,
+          "size": 4,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "frame_no": 52,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "57df",
+          "value": 22495,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "018f",
+          "value": 399,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Registers",
+          "raw": "0002",
+          "value": 2,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 53,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "57e0",
+          "value": 22496,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0001",
+          "value": 1,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Registers",
+          "raw": "0063",
+          "value": 99,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 54,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "57df",
+          "value": 22495,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0007",
+          "value": 7,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "04",
+          "value": 4,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Register Values",
+          "raw": "00000000",
+          "value": "00000000",
+          "offset": 9,
+          "size": 4,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "frame_no": 55,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6d07",
+          "value": 27911,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0006",
+          "value": 6,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 56,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6d07",
+          "value": 27911,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0004",
+          "value": 4,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "01",
+          "value": 1,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Coil Status",
+          "raw": "00",
+          "value": 0,
+          "offset": 9,
+          "size": 1,
+          "length": 1
+        }
+      ]
+    },
+    {
+      "frame_no": 57,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6d08",
+          "value": 27912,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0006",
+          "value": 6,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 58,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6d08",
+          "value": 27912,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0004",
+          "value": 4,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "01",
+          "value": 1,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Coil Status",
+          "raw": "00",
+          "value": 0,
+          "offset": 9,
+          "size": 1,
+          "length": 1
+        }
+      ]
+    },
+    {
+      "frame_no": 59,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6d09",
+          "value": 27913,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0006",
+          "value": 6,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 60,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6d09",
+          "value": 27913,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0004",
+          "value": 4,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "01",
+          "value": 1,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Coil Status",
+          "raw": "00",
+          "value": 0,
+          "offset": 9,
+          "size": 1,
+          "length": 1
+        }
+      ]
+    },
+    {
+      "frame_no": 61,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6d0a",
+          "value": 27914,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0006",
+          "value": 6,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 62,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6370",
+          "value": 25456,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "0006",
+          "value": 6,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 63,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6d0a",
+          "value": 27914,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0004",
+          "value": 4,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "01",
+          "value": 1,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Coil Status",
+          "raw": "00",
+          "value": 0,
+          "offset": 9,
+          "size": 1,
+          "length": 1
+        }
+      ]
+    },
+    {
+      "frame_no": 64,
+      "function_code": 2,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6d0b",
+          "value": 27915,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "02",
+          "value": 2,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Inputs",
+          "raw": "000a",
+          "value": 10,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 65,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6370",
+          "value": 25456,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0004",
+          "value": 4,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "01",
+          "value": 1,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Coil Status",
+          "raw": "00",
+          "value": 0,
+          "offset": 9,
+          "size": 1,
+          "length": 1
+        }
+      ]
+    },
+    {
+      "frame_no": 66,
+      "function_code": 2,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6371",
+          "value": 25457,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "02",
+          "value": 2,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Inputs",
+          "raw": "000a",
+          "value": 10,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 67,
+      "function_code": 2,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6d0b",
+          "value": 27915,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0005",
+          "value": 5,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "02",
+          "value": 2,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "02",
+          "value": 2,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Input Status",
+          "raw": "0000",
+          "value": 0,
+          "offset": 9,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 68,
+      "function_code": 2,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6371",
+          "value": 25457,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0005",
+          "value": 5,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "02",
+          "value": 2,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "02",
+          "value": 2,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Input Status",
+          "raw": "0300",
+          "value": 768,
+          "offset": 9,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 69,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "57e0",
+          "value": 22496,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "00c9",
+          "value": 201,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "c6",
+          "value": 198,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Register Values",
+          "raw": "00000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000003000000000000000000000000000001dc000001d600004a60000000000000000000000000000000000000000000000000000000000000796f617300660000000000000000000000000000796f61730066000000000000000000000000000079006173006600000000000000000000000000000384",
+          "value": "00000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000003000000000000000000000000000001dc000001d600004a60000000000000000000000000000000000000000000000000000000000000796f617300660000000000000000000000000000796f61730066000000000000000000000000000079006173006600000000000000000000000000000384",
+          "offset": 9,
+          "size": 198,
+          "length": 198
+        }
+      ]
+    },
+    {
+      "frame_no": 70,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "25cc",
+          "value": 9676,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0030",
+          "value": 48,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Registers",
+          "raw": "0028",
+          "value": 40,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 71,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "5e13",
+          "value": 24083,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0030",
+          "value": 48,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Registers",
+          "raw": "0028",
+          "value": 40,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 72,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "3209",
+          "value": 12809,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0030",
+          "value": 48,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Registers",
+          "raw": "0028",
+          "value": 40,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 73,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6d0c",
+          "value": 27916,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0030",
+          "value": 48,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Registers",
+          "raw": "0028",
+          "value": 40,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 74,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "25cc",
+          "value": 9676,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0053",
+          "value": 83,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "50",
+          "value": 80,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Register Values",
+          "raw": "3030303030303030303030303033363037320000000000000000000000000000303030303036323536333539000000000000000000000000000000000000000000ec0000000000000000000000000000",
+          "value": "3030303030303030303030303033363037320000000000000000000000000000303030303036323536333539000000000000000000000000000000000000000000ec0000000000000000000000000000",
+          "offset": 9,
+          "size": 80,
+          "length": 80
+        }
+      ]
+    },
+    {
+      "frame_no": 75,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6372",
+          "value": 25458,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0030",
+          "value": 48,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Registers",
+          "raw": "0028",
+          "value": 40,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 76,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "25cd",
+          "value": 9677,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "044c",
+          "value": 1100,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Registers",
+          "raw": "0073",
+          "value": 115,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 77,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "5e13",
+          "value": 24083,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0053",
+          "value": 83,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "50",
+          "value": 80,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Register Values",
+          "raw": "30303030303030303030303030333630373200000000000000000000000000003030303030363235363832330000000000000000000000000000000000000000119e0000000900000000000000000000",
+          "value": "30303030303030303030303030333630373200000000000000000000000000003030303030363235363832330000000000000000000000000000000000000000119e0000000900000000000000000000",
+          "offset": 9,
+          "size": 80,
+          "length": 80
+        }
+      ]
+    },
+    {
+      "frame_no": 78,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "3209",
+          "value": 12809,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0053",
+          "value": 83,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "50",
+          "value": 80,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Register Values",
+          "raw": "3030303030303030303030303038393836300000000000000000000000000000543939393939393939383838000000000000000000000000000000000000000000000000000000000000000000000000",
+          "value": "3030303030303030303030303038393836300000000000000000000000000000543939393939393939383838000000000000000000000000000000000000000000000000000000000000000000000000",
+          "offset": 9,
+          "size": 80,
+          "length": 80
+        }
+      ]
+    },
+    {
+      "frame_no": 79,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6d0c",
+          "value": 27916,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0053",
+          "value": 83,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "50",
+          "value": 80,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Register Values",
+          "raw": "3030303030303030303030303038393932360000000000000000000000000000303030303036323438353235000000000000000000000000000000000000000000000000000000000000000000000000",
+          "value": "3030303030303030303030303038393932360000000000000000000000000000303030303036323438353235000000000000000000000000000000000000000000000000000000000000000000000000",
+          "offset": 9,
+          "size": 80,
+          "length": 80
+        }
+      ]
+    },
+    {
+      "frame_no": 80,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "5e14",
+          "value": 24084,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "044c",
+          "value": 1100,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Registers",
+          "raw": "0073",
+          "value": 115,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 81,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "320a",
+          "value": 12810,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "044c",
+          "value": 1100,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Registers",
+          "raw": "0073",
+          "value": 115,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 82,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6d0d",
+          "value": 27917,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "044c",
+          "value": 1100,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Registers",
+          "raw": "0073",
+          "value": 115,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 83,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6372",
+          "value": 25458,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0053",
+          "value": 83,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "50",
+          "value": 80,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Register Values",
+          "raw": "3030303030303030303030303038393932360000000000000000000000000000303030303036323534323637000000000000000000000000000000000000000000590000000600000000000000000000",
+          "value": "3030303030303030303030303038393932360000000000000000000000000000303030303036323534323637000000000000000000000000000000000000000000590000000600000000000000000000",
+          "offset": 9,
+          "size": 80,
+          "length": 80
+        }
+      ]
+    },
+    {
+      "frame_no": 84,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6373",
+          "value": 25459,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "044c",
+          "value": 1100,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Registers",
+          "raw": "0073",
+          "value": 115,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 85,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6d0d",
+          "value": 27917,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "00e9",
+          "value": 233,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "e6",
+          "value": 230,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Register Values",
+          "raw": "0000000200000006271000000000000000000000003c000c003c000c01f4001e000401fb00050000000500e9000800000000006e000d00bf00070024003f00150005001e008c0028000a000600060006000700050000000000000000000000000000000000320000000f012c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006d686967672073696c766961202020202020202020204e6f6e6520200000",
+          "value": "0000000200000006271000000000000000000000003c000c003c000c01f4001e000401fb00050000000500e9000800000000006e000d00bf00070024003f00150005001e008c0028000a000600060006000700050000000000000000000000000000000000320000000f012c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006d686967672073696c766961202020202020202020204e6f6e6520200000",
+          "offset": 9,
+          "size": 230,
+          "length": 230
+        }
+      ]
+    },
+    {
+      "frame_no": 86,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "25cd",
+          "value": 9677,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "00e9",
+          "value": 233,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "e6",
+          "value": 230,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Register Values",
+          "raw": "0032000300000004000000000000000000000000003c000b003c000b0258001e000401fe006e0000000500e40008000000000073000f00950005000f001000150083002a001c00280017002500060009000a000a00000000000000000000000000000000003700000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006b73747279206b7369657a6e69637a6b6130392020206b73747279200384",
+          "value": "0032000300000004000000000000000000000000003c000b003c000b0258001e000401fe006e0000000500e40008000000000073000f00950005000f001000150083002a001c00280017002500060009000a000a00000000000000000000000000000000003700000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006b73747279206b7369657a6e69637a6b6130392020206b73747279200384",
+          "offset": 9,
+          "size": 230,
+          "length": 230
+        }
+      ]
+    },
+    {
+      "frame_no": 87,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "320a",
+          "value": 12810,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "00e9",
+          "value": 233,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "e6",
+          "value": 230,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Register Values",
+          "raw": "001e000100000002271100000000000000000000003c000e003c000e05140032000401fb00050000000500ef0008000000000069000b009a0009000a00950015000c001e00380028000e0016001e00080008000b000000000000000000000000000c000f00380000000f02580000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004e6f6e6520200000",
+          "value": "001e000100000002271100000000000000000000003c000e003c000e05140032000401fb00050000000500ef0008000000000069000b009a0009000a00950015000c001e00380028000e0016001e00080008000b000000000000000000000000000c000f00380000000f02580000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004e6f6e6520200000",
+          "offset": 9,
+          "size": 230,
+          "length": 230
+        }
+      ]
+    },
+    {
+      "frame_no": 88,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "5e14",
+          "value": 24084,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "00e9",
+          "value": 233,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "e6",
+          "value": 230,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Register Values",
+          "raw": "00320003000000040000000000000000000000000046000a0046000a02ee001e000401ee005d0000000500dc0008000000000073000f00aa0007001100450014003d002300150028000f00070009000b000f000a0000000000000000000000000000000000390000000d0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000069636f6c6c2069636f6c6c20202020202020202020204e6f6e6520200000",
+          "value": "00320003000000040000000000000000000000000046000a0046000a02ee001e000401ee005d0000000500dc0008000000000073000f00aa0007001100450014003d002300150028000f00070009000b000f000a0000000000000000000000000000000000390000000d0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000069636f6c6c2069636f6c6c20202020202020202020204e6f6e6520200000",
+          "offset": 9,
+          "size": 230,
+          "length": 230
+        }
+      ]
+    },
+    {
+      "frame_no": 89,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6373",
+          "value": 25459,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "00e9",
+          "value": 233,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "e6",
+          "value": 230,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Register Values",
+          "raw": "0032000200000005271200000000000000000000003c000b003c000b02ee001e000401fb00050000000500e70008000000000078001100a30007000e003f00150068001e00910028000e00230006000b0007000800000000000000000000000000000000003d0000000f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005245445741207279616e3120202020202020202020204e6f6e6520200000",
+          "value": "0032000200000005271200000000000000000000003c000b003c000b02ee001e000401fb00050000000500e70008000000000078001100a30007000e003f00150068001e00910028000e00230006000b0007000800000000000000000000000000000000003d0000000f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005245445741207279616e3120202020202020202020204e6f6e6520200000",
+          "offset": 9,
+          "size": 230,
+          "length": 230
+        }
+      ]
+    },
+    {
+      "frame_no": 90,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6094",
+          "value": 24724,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "000a",
+          "value": 10,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 91,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6094",
+          "value": 24724,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0005",
+          "value": 5,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "02",
+          "value": 2,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Coil Status",
+          "raw": "0100",
+          "value": 256,
+          "offset": 9,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 92,
+      "function_code": 2,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6095",
+          "value": 24725,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "02",
+          "value": 2,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Inputs",
+          "raw": "000b",
+          "value": 11,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 93,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "1f1c",
+          "value": 7964,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "018f",
+          "value": 399,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Registers",
+          "raw": "0002",
+          "value": 2,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 94,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "1f1d",
+          "value": 7965,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0001",
+          "value": 1,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Registers",
+          "raw": "0063",
+          "value": 99,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 95,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "1f1c",
+          "value": 7964,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0007",
+          "value": 7,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "04",
+          "value": 4,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Register Values",
+          "raw": "f0004623",
+          "value": "f0004623",
+          "offset": 9,
+          "size": 4,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "frame_no": 96,
+      "function_code": 2,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "6095",
+          "value": 24725,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0005",
+          "value": 5,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "02",
+          "value": 2,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "02",
+          "value": 2,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Input Status",
+          "raw": "0200",
+          "value": 512,
+          "offset": 9,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 97,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "1f20",
+          "value": 7968,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "08d2",
+          "value": 2258,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Registers",
+          "raw": "0002",
+          "value": 2,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 98,
+      "function_code": 4,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "1f1d",
+          "value": 7965,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "00c9",
+          "value": 201,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "04",
+          "value": 4,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Byte Count",
+          "raw": "c6",
+          "value": 198,
+          "offset": 8,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Register Values",
+          "raw": "00320000303030303630353233363935000000000001000030303030303030303030303033303036323700000000000000000000000000000005000000000000000000000000000000000000000100000004000000000000000000000000000000020000000600000050000000010000002800000000000000000000000000000000000000000000706f617000630000000000000000000000000000706f61700063000000000000000000000000000070006170006300000000000000000000000000000014",
+          "value": "00320000303030303630353233363935000000000001000030303030303030303030303033303036323700000000000000000000000000000005000000000000000000000000000000000000000100000004000000000000000000000000000000020000000600000050000000010000002800000000000000000000000000000000000000000000706f617000630000000000000000000000000000706f61700063000000000000000000000000000070006170006300000000000000000000000000000014",
+          "offset": 9,
+          "size": 198,
+          "length": 198
+        }
+      ]
+    },
+    {
+      "frame_no": 99,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "57e5",
+          "value": 22501,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "000a",
+          "value": 10,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "frame_no": 100,
+      "function_code": 1,
+      "fields": [
+        {
+          "layer": "MBAP",
+          "name": "Transaction Identifier",
+          "raw": "450a",
+          "value": 17674,
+          "offset": 0,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Protocol Identifier",
+          "raw": "0000",
+          "value": 0,
+          "offset": 2,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Length",
+          "raw": "0006",
+          "value": 6,
+          "offset": 4,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "MBAP",
+          "name": "Unit Identifier",
+          "raw": "ff",
+          "value": 255,
+          "offset": 6,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Function Code",
+          "raw": "01",
+          "value": 1,
+          "offset": 7,
+          "size": 1,
+          "length": 1
+        },
+        {
+          "layer": "PDU",
+          "name": "Starting Address",
+          "raw": "0000",
+          "value": 0,
+          "offset": 8,
+          "size": 2,
+          "length": 2
+        },
+        {
+          "layer": "PDU",
+          "name": "Quantity of Coils",
+          "raw": "000a",
+          "value": 10,
+          "offset": 10,
+          "size": 2,
+          "length": 2
+        }
+      ]
+    }
+  ]
+}

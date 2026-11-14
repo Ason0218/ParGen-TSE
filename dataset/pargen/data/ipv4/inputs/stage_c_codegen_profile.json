@@ -1,0 +1,16 @@
+{
+  "profile_name": "ipv4_wireshark_c_registration",
+  "target_protocol": "ipv4",
+  "host": "wireshark_c",
+  "wireshark_c": {
+    "registration": {
+      "dissector_table": "ethertype",
+      "selector_type": "ethertype",
+      "selector": 2048,
+      "proto_abbrev": "ipv4_bs",
+      "filter_name": "ipv4_bs",
+      "long_name": "IPv4 (ParGen)",
+      "short_name": "IPv4 (ParGen)"
+    }
+  }
+}

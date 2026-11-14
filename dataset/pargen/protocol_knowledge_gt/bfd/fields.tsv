@@ -1,0 +1,29 @@
+# BFD Control packet field-level specs (id, boundary, dtype, name)
+# boundary is bit range [lo,hi] (inclusive) from start of the BFD control packet, or "dynamic".
+F1	[0,2]	uint	Version
+F2	[3,7]	uint	Diagnostic
+F3	[8,9]	uint	State
+F4	[10,10]	bool	Poll Flag
+F5	[11,11]	bool	Final Flag
+F6	[12,12]	bool	Control Plane Independent Flag
+F7	[13,13]	bool	Authentication Present Flag
+F8	[14,14]	bool	Demand Flag
+F9	[15,15]	bool	Multipoint Flag
+F10	[16,23]	uint	Detection Time Multiplier
+F11	[24,31]	uint	Length
+F12	[32,63]	uint	My Discriminator
+F13	[64,95]	uint	Your Discriminator
+F14	[96,127]	uint	Desired Minimum Transmit Interval
+F15	[128,159]	uint	Required Minimum Receive Interval
+F16	[160,191]	uint	Required Minimum Echo Receive Interval
+F17	[192,199]	uint	Authentication Type
+F18	[200,207]	uint	Authentication Length
+F19	[208,215]	uint	Authentication Key Identifier
+F20	dynamic	binary	Authentication Data
+F21	dynamic	binary	Simple Password Authentication Password
+F22	[216,223]	uint	Authentication Type 2 or 3 Reserved
+F23	[224,255]	uint	Authentication Type 2 or 3 Sequence Number
+F24	[256,383]	binary	Authentication Type 2 or 3 Authentication Key or Digest (Message Digest 5)
+F25	[216,223]	uint	Authentication Type 4 or 5 Reserved
+F26	[224,255]	uint	Authentication Type 4 or 5 Sequence Number
+F27	[256,415]	binary	Authentication Type 4 or 5 Authentication Key or Hash (Secure Hash Algorithm 1)

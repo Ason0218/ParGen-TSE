@@ -1,0 +1,59 @@
+Spicy quick reference (for ParGen Stage C / zeek_spicy)
+
+This file is a compact reminder of Spicy syntax that is easy to miss when generating or repairing code.
+
+1) Parse-switch syntax (Spicy "switch") is a parsing CONSTRUCT (a statement), not an expression.
+   It must appear inside a `unit { ... }` body, not as `field: switch (...) { ... }`.
+
+Example:
+
+  type PDU = unit {
+      function_code: uint8;
+
+      switch (self.function_code) {
+          1 -> read_coils_req: Read_Coils_Request;
+          2 -> read_discrete_inputs_req: Read_Discrete_Inputs_Request;
+          * -> unknown: bytes &eod;
+      };
+  };
+
+2) No `&length` attribute exists.
+   - Use `&size` only on `bytes`.
+   - For length-delimited sub-units, use a bytes buffer + `&parse-from`:
+
+  public type Message = unit {
+      hdr: Header;
+      body_bytes: bytes &size=(self.hdr.len);
+      body: Body &parse-from=self.body_bytes;
+  };
+
+3) End-of-data bytes: use `&eod` (NOT `&restofdata`).
+
+4) Field constraints:
+   - `&requires=(...)` checks a condition during parsing.
+   - `$$` is the current FIELD value in `&requires` expressions.
+   - Use `self.<field>` to reference other fields.
+
+Examples:
+
+  protocol_id: uint16 &requires=($$ == 0);
+  length_field: uint16 &requires=($$ >= 1 && $$ <= 253);
+
+5) Boolean literals are `True` / `False` (capitalized).
+
+6) Do NOT use `&transient` (it is removed in current spicyz; the compiler will error).
+   If you need direction-specific parsing, prefer doing it in the EVT analyzer declaration:
+     parse originator with <Unit>,
+     parse responder with <Unit>,
+   rather than trying to store direction in a Spicy field.
+
+7) Bitfields / sub-byte parsing:
+   - Use `bitfield(N) { ... }` to parse bit ranges (and attach `&bit-order=spicy::BitOrder::{MSB0,LSB0}` to the whole bitfield).
+   - Do NOT use C-like "struct bitfields" such as `uint8 &bit-order=... { a: uint8(4); b: uint8(4); };` (spicyz will reject it).
+
+Example:
+
+  first_byte: bitfield(8) {
+      data_offset: 0..3;
+      reserved: 4..7;
+  } &bit-order=spicy::BitOrder::MSB0;

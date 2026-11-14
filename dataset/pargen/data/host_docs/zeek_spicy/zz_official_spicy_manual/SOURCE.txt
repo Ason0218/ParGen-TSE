@@ -1,0 +1,11 @@
+These files are vendored from the official Spicy manual (Zeek Project).
+
+Upstream repo: https://github.com/zeek/spicy
+Pinned commit: dc3613c52c673b892e7b3d86c252746e1b1ae0b9
+Documentation site: https://docs.zeek.org/projects/spicy/en/latest/
+
+Source paths copied:
+- doc/programming/parsing.rst
+- doc/programming/language/*.rst
+
+License: BSD (see LICENSE.txt)
